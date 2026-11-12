@@ -6,12 +6,6 @@
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
-	<key>CFBundleLocalizations</key>
-	<array>
-		<string>en</string>
-		<string>es</string>
-		<string>zh-Hant</string>
-	</array>
 	<key>CFBundleDisplayName</key>
 	<string>Benny Math</string>
 	<key>CFBundleExecutable</key>
@@ -20,6 +14,12 @@
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>es</string>
+		<string>zh-Hant</string>
+	</array>
 	<key>CFBundleName</key>
 	<string>Benny Math</string>
 	<key>CFBundlePackageType</key>
@@ -30,6 +30,8 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
