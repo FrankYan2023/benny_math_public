@@ -1,0 +1,11 @@
+node_modules/
+app/.dart_tool/
+app/build/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/ios/Pods/
+app/ios/.symlinks/
+app/ios/Flutter/Generated.xcconfig
+app/ios/Flutter/ephemeral/
+.DS_Store
+__pycache__/

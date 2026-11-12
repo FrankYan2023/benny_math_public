@@ -1,0 +1,1663 @@
+{
+  "version": "2026-10 人教版(2024)七年级",
+  "tiers": {
+    "b": "小学衔接",
+    "c": "初一必备",
+    "e": "拓展"
+  },
+  "modules": [
+    {
+      "id": "X",
+      "name": "小学衔接",
+      "term": "前置基础",
+      "name_en": "Primary School Review",
+      "short_en": "Review",
+      "name_es": "Repaso de Primaria",
+      "short_es": "Repaso",
+      "name_hant": "小學銜接"
+    },
+    {
+      "id": "7A-1",
+      "name": "有理数",
+      "term": "七年级上",
+      "name_en": "Rational Numbers",
+      "short_en": "Rational Numbers",
+      "name_es": "Números racionales",
+      "short_es": "Racionales",
+      "name_hant": "有理數"
+    },
+    {
+      "id": "7A-2",
+      "name": "有理数的运算",
+      "term": "七年级上",
+      "name_en": "Operations with Rational Numbers",
+      "short_en": "Operations",
+      "name_es": "Operaciones con números racionales",
+      "short_es": "Operaciones",
+      "name_hant": "有理數的運算"
+    },
+    {
+      "id": "7A-3",
+      "name": "代数式",
+      "term": "七年级上",
+      "name_en": "Algebraic Expressions",
+      "short_en": "Expressions",
+      "name_es": "Expresiones algebraicas",
+      "short_es": "Expresiones",
+      "name_hant": "代數式"
+    },
+    {
+      "id": "7A-4",
+      "name": "整式的加减",
+      "term": "七年级上",
+      "name_en": "Adding and Subtracting Polynomials",
+      "short_en": "Polynomials",
+      "name_es": "Suma y resta de polinomios",
+      "short_es": "Polinomios",
+      "name_hant": "整式的加減"
+    },
+    {
+      "id": "7A-5",
+      "name": "一元一次方程",
+      "term": "七年级上",
+      "name_en": "Linear Equations in One Variable",
+      "short_en": "Equations",
+      "name_es": "Ecuaciones de primer grado",
+      "short_es": "Ecuaciones",
+      "name_hant": "一元一次方程"
+    },
+    {
+      "id": "7A-6",
+      "name": "几何图形初步",
+      "term": "七年级上",
+      "name_en": "Introduction to Geometric Figures",
+      "short_en": "Geometry",
+      "name_es": "Introducción a las figuras geométricas",
+      "short_es": "Geometría",
+      "name_hant": "幾何圖形初步"
+    },
+    {
+      "id": "7B-7",
+      "name": "相交线与平行线",
+      "term": "七年级下",
+      "name_en": "Intersecting and Parallel Lines",
+      "short_en": "Parallel Lines",
+      "name_es": "Rectas secantes y paralelas",
+      "short_es": "Paralelas",
+      "name_hant": "相交線與平行線"
+    },
+    {
+      "id": "7B-8",
+      "name": "实数",
+      "term": "七年级下",
+      "name_en": "Real Numbers",
+      "short_en": "Real Numbers",
+      "name_es": "Números reales",
+      "short_es": "Reales",
+      "name_hant": "實數"
+    },
+    {
+      "id": "7B-9",
+      "name": "平面直角坐标系",
+      "term": "七年级下",
+      "name_en": "The Cartesian Coordinate Plane",
+      "short_en": "Coordinates",
+      "name_es": "El plano cartesiano",
+      "short_es": "Coordenadas",
+      "name_hant": "平面直角座標系"
+    },
+    {
+      "id": "7B-10",
+      "name": "二元一次方程组",
+      "term": "七年级下",
+      "name_en": "Systems of Linear Equations",
+      "short_en": "Systems",
+      "name_es": "Sistemas de ecuaciones lineales",
+      "short_es": "Sistemas",
+      "name_hant": "二元一次方程組"
+    },
+    {
+      "id": "7B-11",
+      "name": "不等式与不等式组",
+      "term": "七年级下",
+      "name_en": "Inequalities and Systems of Inequalities",
+      "short_en": "Inequalities",
+      "name_es": "Inecuaciones y sistemas de inecuaciones",
+      "short_es": "Inecuaciones",
+      "name_hant": "不等式與不等式組"
+    },
+    {
+      "id": "7B-12",
+      "name": "数据的收集、整理与描述",
+      "term": "七年级下",
+      "name_en": "Collecting, Organizing and Describing Data",
+      "short_en": "Data",
+      "name_es": "Recogida, organización y descripción de datos",
+      "short_es": "Datos",
+      "name_hant": "數據的收集、整理與描述"
+    }
+  ],
+  "kps": [
+    {
+      "id": "X-01",
+      "name": "整数四则运算与运算律",
+      "tier": "b",
+      "module": "X",
+      "pre": [],
+      "name_en": "Whole-number operations and their laws",
+      "name_es": "Operaciones con números naturales y sus propiedades",
+      "name_hant": "整數四則運算與運算律"
+    },
+    {
+      "id": "X-02",
+      "name": "因数与倍数（公因数、公倍数）",
+      "tier": "b",
+      "module": "X",
+      "pre": [],
+      "name_en": "Factors and multiples (GCF, LCM)",
+      "name_es": "Divisores y múltiplos (m.c.d., m.c.m.)",
+      "name_hant": "因數與倍數（公因數、公倍數）"
+    },
+    {
+      "id": "X-03",
+      "name": "分数的意义与基本性质（约分、通分）",
+      "tier": "b",
+      "module": "X",
+      "pre": [
+        "X-02"
+      ],
+      "name_en": "Meaning and properties of fractions (simplifying, common denominators)",
+      "name_es": "Significado y propiedades de las fracciones (simplificar, reducir a común denominador)",
+      "name_hant": "分數的意義與基本性質（約分、通分）"
+    },
+    {
+      "id": "X-04",
+      "name": "分数四则运算",
+      "tier": "b",
+      "module": "X",
+      "pre": [
+        "X-03",
+        "X-01"
+      ],
+      "name_en": "Operations with fractions",
+      "name_es": "Operaciones con fracciones",
+      "name_hant": "分數四則運算"
+    },
+    {
+      "id": "X-05",
+      "name": "小数、分数、百分数互化",
+      "tier": "b",
+      "module": "X",
+      "pre": [
+        "X-03"
+      ],
+      "name_en": "Converting decimals, fractions and percents",
+      "name_es": "Decimales, fracciones y porcentajes",
+      "name_hant": "小數、分數、百分數互化"
+    },
+    {
+      "id": "X-06",
+      "name": "比和比例",
+      "tier": "b",
+      "module": "X",
+      "pre": [
+        "X-04"
+      ],
+      "name_en": "Ratio and proportion",
+      "name_es": "Razones y proporciones",
+      "name_hant": "比和比例"
+    },
+    {
+      "id": "X-07",
+      "name": "用字母表示数与简易方程",
+      "tier": "b",
+      "module": "X",
+      "pre": [
+        "X-01"
+      ],
+      "name_en": "Letters for numbers and simple equations",
+      "name_es": "Letras en lugar de números y ecuaciones sencillas",
+      "name_hant": "用字母表示數與簡易方程"
+    },
+    {
+      "id": "X-08",
+      "name": "典型应用题（行程、工程、百分数）",
+      "tier": "b",
+      "module": "X",
+      "pre": [
+        "X-04",
+        "X-07"
+      ],
+      "name_en": "Classic word problems (distance, work, percent)",
+      "name_es": "Problemas clásicos (distancias, trabajo, porcentajes)",
+      "name_hant": "典型應用題（行程、工程、百分數）"
+    },
+    {
+      "id": "X-09",
+      "name": "平面图形的周长与面积",
+      "tier": "b",
+      "module": "X",
+      "pre": [],
+      "name_en": "Perimeter and area of plane figures",
+      "name_es": "Perímetro y área de figuras planas",
+      "name_hant": "平面圖形的周長與面積"
+    },
+    {
+      "id": "X-10",
+      "name": "立体图形的表面积与体积",
+      "tier": "b",
+      "module": "X",
+      "pre": [
+        "X-09"
+      ],
+      "name_en": "Surface area and volume of solids",
+      "name_es": "Área y volumen de cuerpos geométricos",
+      "name_hant": "立體圖形的表面積與體積"
+    },
+    {
+      "id": "7A-1-01",
+      "name": "正数和负数",
+      "tier": "c",
+      "module": "7A-1",
+      "pre": [],
+      "name_en": "Positive and negative numbers",
+      "name_es": "Números positivos y negativos",
+      "name_hant": "正數和負數"
+    },
+    {
+      "id": "7A-1-02",
+      "name": "有理数的概念与分类",
+      "tier": "c",
+      "module": "7A-1",
+      "pre": [
+        "7A-1-01",
+        "X-05"
+      ],
+      "name_en": "Rational numbers and their classification",
+      "name_es": "Números racionales y su clasificación",
+      "name_hant": "有理數的概念與分類"
+    },
+    {
+      "id": "7A-1-03",
+      "name": "数轴",
+      "tier": "c",
+      "module": "7A-1",
+      "pre": [
+        "7A-1-01"
+      ],
+      "name_en": "The number line",
+      "name_es": "La recta numérica",
+      "name_hant": "數軸"
+    },
+    {
+      "id": "7A-1-04",
+      "name": "相反数",
+      "tier": "c",
+      "module": "7A-1",
+      "pre": [
+        "7A-1-03"
+      ],
+      "name_en": "Opposite numbers",
+      "name_es": "Números opuestos",
+      "name_hant": "相反數"
+    },
+    {
+      "id": "7A-1-05",
+      "name": "绝对值",
+      "tier": "c",
+      "module": "7A-1",
+      "pre": [
+        "7A-1-03",
+        "7A-1-04"
+      ],
+      "name_en": "Absolute value",
+      "name_es": "Valor absoluto",
+      "name_hant": "絕對值"
+    },
+    {
+      "id": "7A-1-06",
+      "name": "有理数的大小比较",
+      "tier": "c",
+      "module": "7A-1",
+      "pre": [
+        "7A-1-03",
+        "7A-1-05"
+      ],
+      "name_en": "Comparing rational numbers",
+      "name_es": "Comparar números racionales",
+      "name_hant": "有理數的大小比較"
+    },
+    {
+      "id": "7A-1-07",
+      "name": "绝对值的几何意义",
+      "tier": "e",
+      "module": "7A-1",
+      "pre": [
+        "7A-1-05",
+        "7A-1-03"
+      ],
+      "name_en": "Geometric meaning of absolute value",
+      "name_es": "Significado geométrico del valor absoluto",
+      "name_hant": "絕對值的幾何意義"
+    },
+    {
+      "id": "7A-1-08",
+      "name": "绝对值的非负性（|a|+|b|=0 型）",
+      "tier": "e",
+      "module": "7A-1",
+      "pre": [
+        "7A-1-05"
+      ],
+      "name_en": "Non-negativity of absolute value (|a|+|b|=0)",
+      "name_es": "El valor absoluto nunca es negativo (|a|+|b|=0)",
+      "name_hant": "絕對值的非負性（|a|+|b|=0 型）"
+    },
+    {
+      "id": "7A-1-09",
+      "name": "数轴上的动点问题",
+      "tier": "e",
+      "module": "7A-1",
+      "pre": [
+        "7A-1-03",
+        "7A-1-07",
+        "X-08"
+      ],
+      "name_en": "Moving points on the number line",
+      "name_es": "Puntos que se mueven en la recta numérica",
+      "name_hant": "數軸上的動點問題"
+    },
+    {
+      "id": "7A-1-10",
+      "name": "绝对值化简（分类讨论）",
+      "tier": "e",
+      "module": "7A-1",
+      "pre": [
+        "7A-1-05",
+        "7A-1-06"
+      ],
+      "name_en": "Simplifying absolute values (case analysis)",
+      "name_es": "Simplificar valores absolutos (por casos)",
+      "name_hant": "絕對值化簡（分類討論）"
+    },
+    {
+      "id": "7A-1-11",
+      "name": "|x−a|+|x−b| 的最小值",
+      "tier": "e",
+      "module": "7A-1",
+      "pre": [
+        "7A-1-07"
+      ],
+      "name_en": "Minimum of |x−a|+|x−b|",
+      "name_es": "Mínimo de |x−a|+|x−b|",
+      "name_hant": "|x−a|+|x−b| 的最小值"
+    },
+    {
+      "id": "7A-2-01",
+      "name": "有理数加法与运算律",
+      "tier": "c",
+      "module": "7A-2",
+      "pre": [
+        "7A-1-05",
+        "X-04"
+      ],
+      "name_en": "Adding rational numbers and its laws",
+      "name_es": "Suma de números racionales y sus propiedades",
+      "name_hant": "有理數加法與運算律"
+    },
+    {
+      "id": "7A-2-02",
+      "name": "有理数减法",
+      "tier": "c",
+      "module": "7A-2",
+      "pre": [
+        "7A-2-01",
+        "7A-1-04"
+      ],
+      "name_en": "Subtracting rational numbers",
+      "name_es": "Resta de números racionales",
+      "name_hant": "有理數減法"
+    },
+    {
+      "id": "7A-2-03",
+      "name": "加减混合运算",
+      "tier": "c",
+      "module": "7A-2",
+      "pre": [
+        "7A-2-02"
+      ],
+      "name_en": "Mixed addition and subtraction",
+      "name_es": "Sumas y restas combinadas",
+      "name_hant": "加減混合運算"
+    },
+    {
+      "id": "7A-2-04",
+      "name": "有理数乘法",
+      "tier": "c",
+      "module": "7A-2",
+      "pre": [
+        "7A-1-05",
+        "X-04"
+      ],
+      "name_en": "Multiplying rational numbers",
+      "name_es": "Multiplicación de números racionales",
+      "name_hant": "有理數乘法"
+    },
+    {
+      "id": "7A-2-05",
+      "name": "有理数除法",
+      "tier": "c",
+      "module": "7A-2",
+      "pre": [
+        "7A-2-04"
+      ],
+      "name_en": "Dividing rational numbers",
+      "name_es": "División de números racionales",
+      "name_hant": "有理數除法"
+    },
+    {
+      "id": "7A-2-06",
+      "name": "乘方",
+      "tier": "c",
+      "module": "7A-2",
+      "pre": [
+        "7A-2-04"
+      ],
+      "name_en": "Powers",
+      "name_es": "Potencias",
+      "name_hant": "乘方"
+    },
+    {
+      "id": "7A-2-07",
+      "name": "混合运算与运算顺序",
+      "tier": "c",
+      "module": "7A-2",
+      "pre": [
+        "7A-2-03",
+        "7A-2-05",
+        "7A-2-06"
+      ],
+      "name_en": "Mixed operations and order of operations",
+      "name_es": "Operaciones combinadas y jerarquía de las operaciones",
+      "name_hant": "混合運算與運算順序"
+    },
+    {
+      "id": "7A-2-08",
+      "name": "科学记数法",
+      "tier": "c",
+      "module": "7A-2",
+      "pre": [
+        "7A-2-06"
+      ],
+      "name_en": "Scientific notation",
+      "name_es": "Notación científica",
+      "name_hant": "科學記數法"
+    },
+    {
+      "id": "7A-2-09",
+      "name": "近似数",
+      "tier": "c",
+      "module": "7A-2",
+      "pre": [],
+      "name_en": "Approximate numbers",
+      "name_es": "Números aproximados",
+      "name_hant": "近似數"
+    },
+    {
+      "id": "7A-2-10",
+      "name": "简便运算（凑整、拆项）",
+      "tier": "e",
+      "module": "7A-2",
+      "pre": [
+        "7A-2-03",
+        "X-01"
+      ],
+      "name_en": "Mental shortcuts (rounding, splitting terms)",
+      "name_es": "Trucos de cálculo mental (redondear, descomponer)",
+      "name_hant": "簡便運算（湊整、拆項）"
+    },
+    {
+      "id": "7A-2-11",
+      "name": "裂项相消",
+      "tier": "e",
+      "module": "7A-2",
+      "pre": [
+        "X-04",
+        "7A-2-07"
+      ],
+      "name_en": "Telescoping sums",
+      "name_es": "Sumas telescópicas",
+      "name_hant": "裂項相消"
+    },
+    {
+      "id": "7A-2-12",
+      "name": "新定义运算",
+      "tier": "e",
+      "module": "7A-2",
+      "pre": [
+        "7A-2-07"
+      ],
+      "name_en": "Newly defined operations",
+      "name_es": "Operaciones definidas nuevas",
+      "name_hant": "新定義運算"
+    },
+    {
+      "id": "7A-2-13",
+      "name": "规律探究（数字、末位数）",
+      "tier": "e",
+      "module": "7A-2",
+      "pre": [
+        "7A-2-06"
+      ],
+      "name_en": "Pattern finding (digits, last digits)",
+      "name_es": "Buscar patrones (cifras, última cifra)",
+      "name_hant": "規律探究（數字、末位數）"
+    },
+    {
+      "id": "7A-3-01",
+      "name": "用字母表示数",
+      "tier": "c",
+      "module": "7A-3",
+      "pre": [
+        "X-07"
+      ],
+      "name_en": "Using letters to represent numbers",
+      "name_es": "Usar letras para representar números",
+      "name_hant": "用字母表示數"
+    },
+    {
+      "id": "7A-3-02",
+      "name": "列代数式",
+      "tier": "c",
+      "module": "7A-3",
+      "pre": [
+        "7A-3-01"
+      ],
+      "name_en": "Writing algebraic expressions",
+      "name_es": "Escribir expresiones algebraicas",
+      "name_hant": "列代數式"
+    },
+    {
+      "id": "7A-3-03",
+      "name": "代数式的值",
+      "tier": "c",
+      "module": "7A-3",
+      "pre": [
+        "7A-3-02",
+        "7A-2-07"
+      ],
+      "name_en": "Evaluating algebraic expressions",
+      "name_es": "Valor numérico de una expresión algebraica",
+      "name_hant": "代數式的值"
+    },
+    {
+      "id": "7A-3-04",
+      "name": "整体代入求值",
+      "tier": "e",
+      "module": "7A-3",
+      "pre": [
+        "7A-3-03"
+      ],
+      "name_en": "Substituting a whole expression",
+      "name_es": "Sustituir una expresión entera",
+      "name_hant": "整體代入求值"
+    },
+    {
+      "id": "7A-3-05",
+      "name": "图形规律列代数式",
+      "tier": "e",
+      "module": "7A-3",
+      "pre": [
+        "7A-3-02"
+      ],
+      "name_en": "Expressions from figure patterns",
+      "name_es": "Expresiones a partir de secuencias de figuras",
+      "name_hant": "圖形規律列代數式"
+    },
+    {
+      "id": "7A-4-01",
+      "name": "单项式（系数、次数）",
+      "tier": "c",
+      "module": "7A-4",
+      "pre": [
+        "7A-3-02"
+      ],
+      "name_en": "Monomials (coefficient, degree)",
+      "name_es": "Monomios (coeficiente, grado)",
+      "name_hant": "單項式（係數、次數）"
+    },
+    {
+      "id": "7A-4-02",
+      "name": "多项式（项、次数、排列）",
+      "tier": "c",
+      "module": "7A-4",
+      "pre": [
+        "7A-4-01"
+      ],
+      "name_en": "Polynomials (terms, degree, ordering)",
+      "name_es": "Polinomios (términos, grado, orden)",
+      "name_hant": "多項式（項、次數、排列）"
+    },
+    {
+      "id": "7A-4-03",
+      "name": "同类项",
+      "tier": "c",
+      "module": "7A-4",
+      "pre": [
+        "7A-4-01"
+      ],
+      "name_en": "Like terms",
+      "name_es": "Términos semejantes",
+      "name_hant": "同類項"
+    },
+    {
+      "id": "7A-4-04",
+      "name": "合并同类项",
+      "tier": "c",
+      "module": "7A-4",
+      "pre": [
+        "7A-4-03",
+        "7A-2-03"
+      ],
+      "name_en": "Combining like terms",
+      "name_es": "Reducir términos semejantes",
+      "name_hant": "合併同類項"
+    },
+    {
+      "id": "7A-4-05",
+      "name": "去括号",
+      "tier": "c",
+      "module": "7A-4",
+      "pre": [
+        "7A-1-04",
+        "7A-4-04"
+      ],
+      "name_en": "Removing parentheses",
+      "name_es": "Quitar paréntesis",
+      "name_hant": "去括號"
+    },
+    {
+      "id": "7A-4-06",
+      "name": "整式的化简求值",
+      "tier": "c",
+      "module": "7A-4",
+      "pre": [
+        "7A-4-05",
+        "7A-3-03"
+      ],
+      "name_en": "Simplifying and evaluating polynomials",
+      "name_es": "Simplificar polinomios y calcular su valor",
+      "name_hant": "整式的化簡求值"
+    },
+    {
+      "id": "7A-4-07",
+      "name": "与字母取值无关问题",
+      "tier": "e",
+      "module": "7A-4",
+      "pre": [
+        "7A-4-06"
+      ],
+      "name_en": "Results independent of a letter",
+      "name_es": "Resultados que no dependen de una letra",
+      "name_hant": "與字母取值無關問題"
+    },
+    {
+      "id": "7A-4-08",
+      "name": "由次数、项数求参数",
+      "tier": "e",
+      "module": "7A-4",
+      "pre": [
+        "7A-4-02"
+      ],
+      "name_en": "Finding parameters from degree and terms",
+      "name_es": "Hallar parámetros a partir del grado y los términos",
+      "name_hant": "由次數、項數求參數"
+    },
+    {
+      "id": "7A-4-09",
+      "name": "整式中的整体思想",
+      "tier": "e",
+      "module": "7A-4",
+      "pre": [
+        "7A-4-06"
+      ],
+      "name_en": "Treating expressions as a whole",
+      "name_es": "Tratar una expresión como un todo",
+      "name_hant": "整式中的整體思想"
+    },
+    {
+      "id": "7A-5-01",
+      "name": "方程与方程的解",
+      "tier": "c",
+      "module": "7A-5",
+      "pre": [
+        "7A-3-03"
+      ],
+      "name_en": "Equations and their solutions",
+      "name_es": "Ecuaciones y sus soluciones",
+      "name_hant": "方程與方程的解"
+    },
+    {
+      "id": "7A-5-02",
+      "name": "等式的性质",
+      "tier": "c",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-01"
+      ],
+      "name_en": "Properties of equality",
+      "name_es": "Propiedades de la igualdad",
+      "name_hant": "等式的性質"
+    },
+    {
+      "id": "7A-5-03",
+      "name": "解方程：移项与合并",
+      "tier": "c",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-02",
+        "7A-4-04"
+      ],
+      "name_en": "Solving: moving terms and combining",
+      "name_es": "Resolver: trasponer términos y reducir",
+      "name_hant": "解方程：移項與合併"
+    },
+    {
+      "id": "7A-5-04",
+      "name": "解方程：去括号",
+      "tier": "c",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-03",
+        "7A-4-05"
+      ],
+      "name_en": "Solving: removing parentheses",
+      "name_es": "Resolver: quitar paréntesis",
+      "name_hant": "解方程：去括號"
+    },
+    {
+      "id": "7A-5-05",
+      "name": "解方程：去分母",
+      "tier": "c",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-04",
+        "X-02"
+      ],
+      "name_en": "Solving: clearing denominators",
+      "name_es": "Resolver: quitar denominadores",
+      "name_hant": "解方程：去分母"
+    },
+    {
+      "id": "7A-5-06",
+      "name": "应用：和差倍分",
+      "tier": "c",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-03",
+        "7A-3-02"
+      ],
+      "name_en": "Word problems: sums, differences and multiples",
+      "name_es": "Problemas: sumas, diferencias y múltiplos",
+      "name_hant": "應用：和差倍分"
+    },
+    {
+      "id": "7A-5-07",
+      "name": "应用：行程（相遇、追及）",
+      "tier": "c",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-06",
+        "X-08"
+      ],
+      "name_en": "Word problems: motion (meeting, catching up)",
+      "name_es": "Problemas de movimiento (encuentro, alcance)",
+      "name_hant": "應用：行程（相遇、追及）"
+    },
+    {
+      "id": "7A-5-08",
+      "name": "应用：工程问题",
+      "tier": "c",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-06",
+        "X-08"
+      ],
+      "name_en": "Word problems: work",
+      "name_es": "Problemas de trabajo",
+      "name_hant": "應用：工程問題"
+    },
+    {
+      "id": "7A-5-09",
+      "name": "应用：销售利润（打折、利润率）",
+      "tier": "c",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-06",
+        "X-05"
+      ],
+      "name_en": "Word problems: sales and profit (discounts, profit rate)",
+      "name_es": "Problemas de compra y venta (descuentos, beneficio)",
+      "name_hant": "應用：銷售利潤（打折、利潤率）"
+    },
+    {
+      "id": "7A-5-10",
+      "name": "应用：配套与比赛积分",
+      "tier": "c",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-06"
+      ],
+      "name_en": "Word problems: matching sets and match points",
+      "name_es": "Problemas de emparejar piezas y de puntos en torneos",
+      "name_hant": "應用：配套與比賽積分"
+    },
+    {
+      "id": "7A-5-11",
+      "name": "应用：方案选择与分段计费",
+      "tier": "c",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-06"
+      ],
+      "name_en": "Word problems: choosing plans and tiered pricing",
+      "name_es": "Problemas de elegir la mejor opción y tarifas por tramos",
+      "name_hant": "應用：方案選擇與分段計費"
+    },
+    {
+      "id": "7A-5-12",
+      "name": "含参方程（同解、解的情况）",
+      "tier": "e",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-05"
+      ],
+      "name_en": "Equations with parameters (same solution, number of solutions)",
+      "name_es": "Ecuaciones con parámetros (misma solución, número de soluciones)",
+      "name_hant": "含參方程（同解、解的情況）"
+    },
+    {
+      "id": "7A-5-13",
+      "name": "绝对值方程",
+      "tier": "e",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-05",
+        "7A-1-10"
+      ],
+      "name_en": "Absolute-value equations",
+      "name_es": "Ecuaciones con valor absoluto",
+      "name_hant": "絕對值方程"
+    },
+    {
+      "id": "7A-5-14",
+      "name": "方程的整数解",
+      "tier": "e",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-05"
+      ],
+      "name_en": "Integer solutions of equations",
+      "name_es": "Soluciones enteras de ecuaciones",
+      "name_hant": "方程的整數解"
+    },
+    {
+      "id": "7A-5-15",
+      "name": "复杂行程（环形、流水、过桥）",
+      "tier": "e",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-07"
+      ],
+      "name_en": "Harder motion problems (circular track, current, bridges)",
+      "name_es": "Problemas de movimiento difíciles (pista circular, corriente, puentes)",
+      "name_hant": "複雜行程（環形、流水、過橋）"
+    },
+    {
+      "id": "7A-5-16",
+      "name": "看错系数类问题",
+      "tier": "e",
+      "module": "7A-5",
+      "pre": [
+        "7A-5-05"
+      ],
+      "name_en": "Problems with a misread coefficient",
+      "name_es": "Problemas con un coeficiente mal leído",
+      "name_hant": "看錯係數類問題"
+    },
+    {
+      "id": "7A-6-01",
+      "name": "立体图形与平面图形",
+      "tier": "c",
+      "module": "7A-6",
+      "pre": [
+        "X-10"
+      ],
+      "name_en": "Solid and plane figures",
+      "name_es": "Cuerpos geométricos y figuras planas",
+      "name_hant": "立體圖形與平面圖形"
+    },
+    {
+      "id": "7A-6-02",
+      "name": "从不同方向看与展开图",
+      "tier": "c",
+      "module": "7A-6",
+      "pre": [
+        "7A-6-01"
+      ],
+      "name_en": "Views from different directions and nets",
+      "name_es": "Vistas desde distintas direcciones y desarrollos planos",
+      "name_hant": "從不同方向看與展開圖"
+    },
+    {
+      "id": "7A-6-03",
+      "name": "点、线、面、体",
+      "tier": "c",
+      "module": "7A-6",
+      "pre": [
+        "7A-6-01"
+      ],
+      "name_en": "Points, lines, surfaces and solids",
+      "name_es": "Puntos, líneas, superficies y cuerpos",
+      "name_hant": "點、線、面、體"
+    },
+    {
+      "id": "7A-6-04",
+      "name": "直线、射线、线段",
+      "tier": "c",
+      "module": "7A-6",
+      "pre": [],
+      "name_en": "Lines, rays and segments",
+      "name_es": "Rectas, semirrectas y segmentos",
+      "name_hant": "直線、射線、線段"
+    },
+    {
+      "id": "7A-6-05",
+      "name": "线段的比较与中点",
+      "tier": "c",
+      "module": "7A-6",
+      "pre": [
+        "7A-6-04"
+      ],
+      "name_en": "Comparing segments and midpoints",
+      "name_es": "Comparar segmentos y punto medio",
+      "name_hant": "線段的比較與中點"
+    },
+    {
+      "id": "7A-6-06",
+      "name": "两点之间线段最短",
+      "tier": "c",
+      "module": "7A-6",
+      "pre": [
+        "7A-6-04"
+      ],
+      "name_en": "The shortest path between two points is a segment",
+      "name_es": "El camino más corto entre dos puntos es el segmento",
+      "name_hant": "兩點之間線段最短"
+    },
+    {
+      "id": "7A-6-07",
+      "name": "角的度量与度分秒换算",
+      "tier": "c",
+      "module": "7A-6",
+      "pre": [],
+      "name_en": "Measuring angles (degrees, minutes, seconds)",
+      "name_es": "Medir ángulos (grados, minutos, segundos)",
+      "name_hant": "角的度量與度分秒換算"
+    },
+    {
+      "id": "7A-6-08",
+      "name": "角的比较与角平分线",
+      "tier": "c",
+      "module": "7A-6",
+      "pre": [
+        "7A-6-07"
+      ],
+      "name_en": "Comparing angles and angle bisectors",
+      "name_es": "Comparar ángulos y bisectriz",
+      "name_hant": "角的比較與角平分線"
+    },
+    {
+      "id": "7A-6-09",
+      "name": "余角和补角",
+      "tier": "c",
+      "module": "7A-6",
+      "pre": [
+        "7A-6-08"
+      ],
+      "name_en": "Complementary and supplementary angles",
+      "name_es": "Ángulos complementarios y suplementarios",
+      "name_hant": "餘角和補角"
+    },
+    {
+      "id": "7A-6-10",
+      "name": "方位角",
+      "tier": "c",
+      "module": "7A-6",
+      "pre": [
+        "7A-6-07"
+      ],
+      "name_en": "Bearings",
+      "name_es": "Rumbos y orientación",
+      "name_hant": "方位角"
+    },
+    {
+      "id": "7A-6-11",
+      "name": "线段与角的计数",
+      "tier": "e",
+      "module": "7A-6",
+      "pre": [
+        "7A-6-04",
+        "7A-6-08"
+      ],
+      "name_en": "Counting segments and angles",
+      "name_es": "Contar segmentos y ángulos",
+      "name_hant": "線段與角的計數"
+    },
+    {
+      "id": "7A-6-12",
+      "name": "线段、角的分类讨论",
+      "tier": "e",
+      "module": "7A-6",
+      "pre": [
+        "7A-6-05",
+        "7A-6-08"
+      ],
+      "name_en": "Case analysis with segments and angles",
+      "name_es": "Segmentos y ángulos por casos",
+      "name_hant": "線段、角的分類討論"
+    },
+    {
+      "id": "7A-6-13",
+      "name": "钟面角",
+      "tier": "e",
+      "module": "7A-6",
+      "pre": [
+        "7A-6-07"
+      ],
+      "name_en": "Clock-face angles",
+      "name_es": "Ángulos de las agujas del reloj",
+      "name_hant": "鐘面角"
+    },
+    {
+      "id": "7A-6-14",
+      "name": "动角与旋转问题",
+      "tier": "e",
+      "module": "7A-6",
+      "pre": [
+        "7A-6-08",
+        "7A-5-03"
+      ],
+      "name_en": "Moving angles and rotation",
+      "name_es": "Ángulos en movimiento y giros",
+      "name_hant": "動角與旋轉問題"
+    },
+    {
+      "id": "7A-6-15",
+      "name": "正方体展开图的相对面",
+      "tier": "e",
+      "module": "7A-6",
+      "pre": [
+        "7A-6-02"
+      ],
+      "name_en": "Opposite faces on cube nets",
+      "name_es": "Caras opuestas en el desarrollo del cubo",
+      "name_hant": "正方體展開圖的相對面"
+    },
+    {
+      "id": "7B-7-01",
+      "name": "对顶角与邻补角",
+      "tier": "c",
+      "module": "7B-7",
+      "pre": [
+        "7A-6-09"
+      ],
+      "name_en": "Vertical angles and adjacent supplementary angles",
+      "name_es": "Ángulos opuestos por el vértice y adyacentes",
+      "name_hant": "對頂角與鄰補角"
+    },
+    {
+      "id": "7B-7-02",
+      "name": "垂线与垂线段最短",
+      "tier": "c",
+      "module": "7B-7",
+      "pre": [
+        "7B-7-01"
+      ],
+      "name_en": "Perpendicular lines; the perpendicular is shortest",
+      "name_es": "Rectas perpendiculares; la perpendicular es la más corta",
+      "name_hant": "垂線與垂線段最短"
+    },
+    {
+      "id": "7B-7-03",
+      "name": "同位角、内错角、同旁内角",
+      "tier": "c",
+      "module": "7B-7",
+      "pre": [
+        "7B-7-01"
+      ],
+      "name_en": "Corresponding, alternate interior and co-interior angles",
+      "name_es": "Ángulos correspondientes, alternos internos y conjugados internos",
+      "name_hant": "同位角、內錯角、同旁內角"
+    },
+    {
+      "id": "7B-7-04",
+      "name": "平行线的判定",
+      "tier": "c",
+      "module": "7B-7",
+      "pre": [
+        "7B-7-03"
+      ],
+      "name_en": "Proving lines are parallel",
+      "name_es": "Demostrar que dos rectas son paralelas",
+      "name_hant": "平行線的判定"
+    },
+    {
+      "id": "7B-7-05",
+      "name": "平行线的性质",
+      "tier": "c",
+      "module": "7B-7",
+      "pre": [
+        "7B-7-04"
+      ],
+      "name_en": "Properties of parallel lines",
+      "name_es": "Propiedades de las rectas paralelas",
+      "name_hant": "平行線的性質"
+    },
+    {
+      "id": "7B-7-06",
+      "name": "命题与几何证明书写",
+      "tier": "c",
+      "module": "7B-7",
+      "pre": [
+        "7B-7-05"
+      ],
+      "name_en": "Statements and writing geometric proofs",
+      "name_es": "Enunciados y cómo escribir demostraciones geométricas",
+      "name_hant": "命題與幾何證明書寫"
+    },
+    {
+      "id": "7B-7-07",
+      "name": "平移",
+      "tier": "c",
+      "module": "7B-7",
+      "pre": [
+        "7B-7-05"
+      ],
+      "name_en": "Translation",
+      "name_es": "Traslaciones",
+      "name_hant": "平移"
+    },
+    {
+      "id": "7B-7-08",
+      "name": "拐点模型（铅笔、猪蹄模型）",
+      "tier": "e",
+      "module": "7B-7",
+      "pre": [
+        "7B-7-05"
+      ],
+      "name_en": "Bent-line models (pencil and hoof shapes)",
+      "name_es": "Modelos de líneas quebradas (forma de lápiz y de herradura)",
+      "name_hant": "拐點模型（鉛筆、豬蹄模型）"
+    },
+    {
+      "id": "7B-7-09",
+      "name": "折叠中的角",
+      "tier": "e",
+      "module": "7B-7",
+      "pre": [
+        "7B-7-05"
+      ],
+      "name_en": "Angles in folding",
+      "name_es": "Ángulos al doblar papel",
+      "name_hant": "摺疊中的角"
+    },
+    {
+      "id": "7B-7-10",
+      "name": "平行线中的旋转问题",
+      "tier": "e",
+      "module": "7B-7",
+      "pre": [
+        "7B-7-05",
+        "7A-6-14"
+      ],
+      "name_en": "Rotation with parallel lines",
+      "name_es": "Giros con rectas paralelas",
+      "name_hant": "平行線中的旋轉問題"
+    },
+    {
+      "id": "7B-8-01",
+      "name": "平方根与算术平方根",
+      "tier": "c",
+      "module": "7B-8",
+      "pre": [
+        "7A-2-06"
+      ],
+      "name_en": "Square roots and arithmetic square roots",
+      "name_es": "Raíces cuadradas y raíz cuadrada aritmética",
+      "name_hant": "平方根與算術平方根"
+    },
+    {
+      "id": "7B-8-02",
+      "name": "立方根",
+      "tier": "c",
+      "module": "7B-8",
+      "pre": [
+        "7A-2-06"
+      ],
+      "name_en": "Cube roots",
+      "name_es": "Raíces cúbicas",
+      "name_hant": "立方根"
+    },
+    {
+      "id": "7B-8-03",
+      "name": "无理数与实数分类",
+      "tier": "c",
+      "module": "7B-8",
+      "pre": [
+        "7B-8-01",
+        "7A-1-02"
+      ],
+      "name_en": "Irrational numbers and classifying real numbers",
+      "name_es": "Números irracionales y clasificación de los números reales",
+      "name_hant": "無理數與實數分類"
+    },
+    {
+      "id": "7B-8-04",
+      "name": "实数的大小比较与估算",
+      "tier": "c",
+      "module": "7B-8",
+      "pre": [
+        "7B-8-03"
+      ],
+      "name_en": "Comparing and estimating real numbers",
+      "name_es": "Comparar y estimar números reales",
+      "name_hant": "實數的大小比較與估算"
+    },
+    {
+      "id": "7B-8-05",
+      "name": "实数的运算",
+      "tier": "c",
+      "module": "7B-8",
+      "pre": [
+        "7B-8-03",
+        "7A-2-07"
+      ],
+      "name_en": "Operations with real numbers",
+      "name_es": "Operaciones con números reales",
+      "name_hant": "實數的運算"
+    },
+    {
+      "id": "7B-8-06",
+      "name": "非负性综合（√a、|a|、a²）",
+      "tier": "e",
+      "module": "7B-8",
+      "pre": [
+        "7B-8-01",
+        "7A-1-08"
+      ],
+      "name_en": "Non-negativity combined (√a, |a|, a²)",
+      "name_es": "No negatividad combinada (√a, |a|, a²)",
+      "name_hant": "非負性綜合（√a、|a|、a²）"
+    },
+    {
+      "id": "7B-8-07",
+      "name": "无理数的整数部分与小数部分",
+      "tier": "e",
+      "module": "7B-8",
+      "pre": [
+        "7B-8-04"
+      ],
+      "name_en": "Integer and decimal parts of irrational numbers",
+      "name_es": "Parte entera y parte decimal de números irracionales",
+      "name_hant": "無理數的整數部分與小數部分"
+    },
+    {
+      "id": "7B-9-01",
+      "name": "有序数对",
+      "tier": "c",
+      "module": "7B-9",
+      "pre": [],
+      "name_en": "Ordered pairs",
+      "name_es": "Pares ordenados",
+      "name_hant": "有序數對"
+    },
+    {
+      "id": "7B-9-02",
+      "name": "点的坐标与象限",
+      "tier": "c",
+      "module": "7B-9",
+      "pre": [
+        "7B-9-01",
+        "7A-1-03"
+      ],
+      "name_en": "Coordinates of points and quadrants",
+      "name_es": "Coordenadas de puntos y cuadrantes",
+      "name_hant": "點的座標與象限"
+    },
+    {
+      "id": "7B-9-03",
+      "name": "用坐标表示位置",
+      "tier": "c",
+      "module": "7B-9",
+      "pre": [
+        "7B-9-02"
+      ],
+      "name_en": "Describing position with coordinates",
+      "name_es": "Describir posiciones con coordenadas",
+      "name_hant": "用座標表示位置"
+    },
+    {
+      "id": "7B-9-04",
+      "name": "用坐标表示平移",
+      "tier": "c",
+      "module": "7B-9",
+      "pre": [
+        "7B-9-02",
+        "7B-7-07"
+      ],
+      "name_en": "Describing translations with coordinates",
+      "name_es": "Describir traslaciones con coordenadas",
+      "name_hant": "用座標表示平移"
+    },
+    {
+      "id": "7B-9-05",
+      "name": "坐标系中的面积（割补法）",
+      "tier": "e",
+      "module": "7B-9",
+      "pre": [
+        "7B-9-02",
+        "X-09"
+      ],
+      "name_en": "Areas on the coordinate plane (cut and fill)",
+      "name_es": "Áreas en el plano cartesiano (cortar y completar)",
+      "name_hant": "座標系中的面積（割補法）"
+    },
+    {
+      "id": "7B-9-06",
+      "name": "坐标规律探究",
+      "tier": "e",
+      "module": "7B-9",
+      "pre": [
+        "7B-9-02"
+      ],
+      "name_en": "Coordinate patterns",
+      "name_es": "Patrones con coordenadas",
+      "name_hant": "座標規律探究"
+    },
+    {
+      "id": "7B-10-01",
+      "name": "二元一次方程（组）及其解",
+      "tier": "c",
+      "module": "7B-10",
+      "pre": [
+        "7A-5-01"
+      ],
+      "name_en": "Linear equations in two variables and their solutions",
+      "name_es": "Ecuaciones lineales con dos incógnitas y sus soluciones",
+      "name_hant": "二元一次方程（組）及其解"
+    },
+    {
+      "id": "7B-10-02",
+      "name": "代入消元法",
+      "tier": "c",
+      "module": "7B-10",
+      "pre": [
+        "7B-10-01",
+        "7A-5-05"
+      ],
+      "name_en": "Elimination by substitution",
+      "name_es": "Método de sustitución",
+      "name_hant": "代入消元法"
+    },
+    {
+      "id": "7B-10-03",
+      "name": "加减消元法",
+      "tier": "c",
+      "module": "7B-10",
+      "pre": [
+        "7B-10-01",
+        "7A-5-05"
+      ],
+      "name_en": "Elimination by addition and subtraction",
+      "name_es": "Método de reducción",
+      "name_hant": "加減消元法"
+    },
+    {
+      "id": "7B-10-04",
+      "name": "实际问题与方程组",
+      "tier": "c",
+      "module": "7B-10",
+      "pre": [
+        "7B-10-02",
+        "7B-10-03",
+        "7A-5-06"
+      ],
+      "name_en": "Real-world problems with systems",
+      "name_es": "Problemas reales con sistemas",
+      "name_hant": "實際問題與方程組"
+    },
+    {
+      "id": "7B-10-05",
+      "name": "三元一次方程组",
+      "tier": "e",
+      "module": "7B-10",
+      "pre": [
+        "7B-10-03"
+      ],
+      "name_en": "Systems of three linear equations",
+      "name_es": "Sistemas de tres ecuaciones lineales",
+      "name_hant": "三元一次方程組"
+    },
+    {
+      "id": "7B-10-06",
+      "name": "含参方程组",
+      "tier": "e",
+      "module": "7B-10",
+      "pre": [
+        "7B-10-03"
+      ],
+      "name_en": "Systems with parameters",
+      "name_es": "Sistemas con parámetros",
+      "name_hant": "含參方程組"
+    },
+    {
+      "id": "7B-10-07",
+      "name": "整体代入与换元",
+      "tier": "e",
+      "module": "7B-10",
+      "pre": [
+        "7B-10-03"
+      ],
+      "name_en": "Substituting wholes and changing variables",
+      "name_es": "Sustituir expresiones enteras y cambiar de variable",
+      "name_hant": "整體代入與換元"
+    },
+    {
+      "id": "7B-10-08",
+      "name": "方程组的整数解与方案",
+      "tier": "e",
+      "module": "7B-10",
+      "pre": [
+        "7B-10-04"
+      ],
+      "name_en": "Integer solutions of systems and plans",
+      "name_es": "Soluciones enteras de sistemas y elección de planes",
+      "name_hant": "方程組的整數解與方案"
+    },
+    {
+      "id": "7B-11-01",
+      "name": "不等式及其解集（数轴表示）",
+      "tier": "c",
+      "module": "7B-11",
+      "pre": [
+        "7A-1-03"
+      ],
+      "name_en": "Inequalities and solution sets (on the number line)",
+      "name_es": "Inecuaciones y conjuntos solución (en la recta numérica)",
+      "name_hant": "不等式及其解集（數軸表示）"
+    },
+    {
+      "id": "7B-11-02",
+      "name": "不等式的性质",
+      "tier": "c",
+      "module": "7B-11",
+      "pre": [
+        "7B-11-01",
+        "7A-5-02"
+      ],
+      "name_en": "Properties of inequalities",
+      "name_es": "Propiedades de las desigualdades",
+      "name_hant": "不等式的性質"
+    },
+    {
+      "id": "7B-11-03",
+      "name": "解一元一次不等式",
+      "tier": "c",
+      "module": "7B-11",
+      "pre": [
+        "7B-11-02",
+        "7A-5-05"
+      ],
+      "name_en": "Solving linear inequalities",
+      "name_es": "Resolver inecuaciones de primer grado",
+      "name_hant": "解一元一次不等式"
+    },
+    {
+      "id": "7B-11-04",
+      "name": "一元一次不等式的应用",
+      "tier": "c",
+      "module": "7B-11",
+      "pre": [
+        "7B-11-03"
+      ],
+      "name_en": "Applications of linear inequalities",
+      "name_es": "Aplicaciones de las inecuaciones de primer grado",
+      "name_hant": "一元一次不等式的應用"
+    },
+    {
+      "id": "7B-11-05",
+      "name": "一元一次不等式组",
+      "tier": "c",
+      "module": "7B-11",
+      "pre": [
+        "7B-11-03"
+      ],
+      "name_en": "Systems of linear inequalities",
+      "name_es": "Sistemas de inecuaciones de primer grado",
+      "name_hant": "一元一次不等式組"
+    },
+    {
+      "id": "7B-11-06",
+      "name": "含参不等式（组）",
+      "tier": "e",
+      "module": "7B-11",
+      "pre": [
+        "7B-11-05"
+      ],
+      "name_en": "Inequalities with parameters",
+      "name_es": "Inecuaciones con parámetros",
+      "name_hant": "含參不等式（組）"
+    },
+    {
+      "id": "7B-11-07",
+      "name": "不等式的整数解",
+      "tier": "e",
+      "module": "7B-11",
+      "pre": [
+        "7B-11-05"
+      ],
+      "name_en": "Integer solutions of inequalities",
+      "name_es": "Soluciones enteras de inecuaciones",
+      "name_hant": "不等式的整數解"
+    },
+    {
+      "id": "7B-11-08",
+      "name": "方案设计（方程组＋不等式）",
+      "tier": "e",
+      "module": "7B-11",
+      "pre": [
+        "7B-11-04",
+        "7B-10-04"
+      ],
+      "name_en": "Planning problems (systems + inequalities)",
+      "name_es": "Problemas de planificación (sistemas e inecuaciones)",
+      "name_hant": "方案設計（方程組＋不等式）"
+    },
+    {
+      "id": "7B-12-01",
+      "name": "全面调查与抽样调查",
+      "tier": "c",
+      "module": "7B-12",
+      "pre": [],
+      "name_en": "Census and sample surveys",
+      "name_es": "Censos y muestreos",
+      "name_hant": "全面調查與抽樣調查"
+    },
+    {
+      "id": "7B-12-02",
+      "name": "统计表与条形、折线、扇形图",
+      "tier": "c",
+      "module": "7B-12",
+      "pre": [
+        "X-05"
+      ],
+      "name_en": "Tables, bar, line and pie charts",
+      "name_es": "Tablas y gráficos de barras, de líneas y de sectores",
+      "name_hant": "統計表與條形、折線、扇形圖"
+    },
+    {
+      "id": "7B-12-03",
+      "name": "频数分布直方图",
+      "tier": "c",
+      "module": "7B-12",
+      "pre": [
+        "7B-12-02"
+      ],
+      "name_en": "Frequency histograms",
+      "name_es": "Histogramas de frecuencias",
+      "name_hant": "頻數分佈直方圖"
+    },
+    {
+      "id": "7B-12-04",
+      "name": "统计图综合分析",
+      "tier": "e",
+      "module": "7B-12",
+      "pre": [
+        "7B-12-03"
+      ],
+      "name_en": "Analyzing statistical charts together",
+      "name_es": "Analizar varios gráficos estadísticos a la vez",
+      "name_hant": "統計圖綜合分析"
+    }
+  ],
+  "tiers_en": {
+    "b": "Primary Review",
+    "c": "Grade 7 Core",
+    "e": "Extension"
+  },
+  "terms_en": {
+    "前置基础": "Foundations",
+    "七年级上": "Grade 7 · Term 1",
+    "七年级下": "Grade 7 · Term 2"
+  },
+  "tiers_es": {
+    "b": "Repaso de Primaria",
+    "c": "Básico de 1.º ESO",
+    "e": "Ampliación"
+  },
+  "tiers_hant": {
+    "b": "小學銜接",
+    "c": "初一必備",
+    "e": "拓展"
+  },
+  "terms_es": {
+    "前置基础": "Fundamentos",
+    "七年级上": "1.º ESO · 1.ª parte",
+    "七年级下": "1.º ESO · 2.ª parte"
+  },
+  "terms_hant": {
+    "前置基础": "前置基礎",
+    "七年级上": "七年級上",
+    "七年级下": "七年級下"
+  }
+}

@@ -1,0 +1,1424 @@
+{
+  "_说明": "示例模式的固定数据。顶层是简体中文原文（内部参考）；en、es、zh（繁体）是界面用的三种语言版本，固定选项（错因、判定等）保持简体中文。",
+  "analysis": {
+    "readable": true,
+    "unreadable_reason": null,
+    "problem_text": "计算：$-3-(-5)+|-2|$",
+    "duplicate_of": null,
+    "has_student_work": true,
+    "student_answer": "-6",
+    "is_correct": false,
+    "correct_answer": "4",
+    "answer_type": "数值",
+    "accepted_answers": [
+      "4"
+    ],
+    "solution_steps": [
+      "$-3-(-5)+|-2|$",
+      "$=-3+5+2$（减去 $-5$ 等于加上 $5$；$|-2|=2$）",
+      "$=2+2$",
+      "$=4$"
+    ],
+    "error": {
+      "step": 1,
+      "type": "概念不清",
+      "description": "第一步把 $-3-(-5)$ 写成了 $-3-5$：减去 $-5$ 时，没有变成加上 $5$。"
+    },
+    "knowledge_points": [
+      {
+        "kp_id": "7A-2-02",
+        "role": "主",
+        "judgement": "不会",
+        "evidence": "把 $-3-(-5)$ 算成了 $-3-5$，减法法则没有掌握。"
+      },
+      {
+        "kp_id": "7A-1-04",
+        "role": "辅",
+        "judgement": "不确定",
+        "evidence": "没有体现出 $-5$ 的相反数是 $5$。"
+      },
+      {
+        "kp_id": "7A-1-05",
+        "role": "辅",
+        "judgement": "会",
+        "evidence": "$|-2|$ 算成了 $2$，这一步是对的。"
+      }
+    ],
+    "missing_kps": [
+      {
+        "kp_id": "7A-1-04",
+        "reason": "减法要用到\"相反数\"，先确认 $-(-5)=5$ 这一点。",
+        "minutes": 6
+      },
+      {
+        "kp_id": "7A-2-02",
+        "reason": "原题出错的直接原因：减去一个负数时要变成加法。",
+        "minutes": 10
+      }
+    ],
+    "plan_summary": "绝对值那一步你算对了。问题出在\"减去一个负数\"，先花几分钟复习相反数，再学有理数减法，最后回来重做这道题。",
+    "estimated_minutes": 20,
+    "monster": {
+      "personality": "冒失",
+      "look": "长角",
+      "color": "葡紫",
+      "intro": "它总在减号后面埋伏，专门偷走负数的负号。"
+    }
+  },
+  "training": {
+    "lessons": [
+      {
+        "kp_id": "7A-1-04",
+        "card": {
+          "one_liner": "只有符号不同的两个数互为相反数，$a$ 的相反数是 $-a$。",
+          "explanation": "在数轴上，互为相反数的两个点分别在原点两侧，到原点的距离相等，比如 $3$ 和 $-3$。$0$ 的相反数是 $0$。在一个数前面加上负号，就得到它的相反数，所以 $-(-5)$ 表示 $-5$ 的相反数，等于 $5$。",
+          "mnemonic": "负负得正：$-(-a)=a$",
+          "pitfall": "以为 $-a$ 一定是负数。当 $a=-3$ 时，$-a=3$，是正数。",
+          "link_to_problem": "原题里\"减去 $-5$\"要用到 $-5$ 的相反数，也就是 $5$。",
+          "visual": {
+            "kind": "number_line",
+            "title": "$5$ 和 $-5$ 在原点两侧，离原点一样远",
+            "caption": "互为相反数的两个点关于原点对称，到原点的距离相等。",
+            "min": -6,
+            "max": 6,
+            "step": 1,
+            "points": [
+              {
+                "value": -5,
+                "label": "-5",
+                "highlight": true
+              },
+              {
+                "value": 5,
+                "label": "5",
+                "highlight": true
+              }
+            ],
+            "jumps": [],
+            "spans": [
+              {
+                "from": -5,
+                "to": 0,
+                "label": "距离 5"
+              },
+              {
+                "from": 0,
+                "to": 5,
+                "label": "距离 5"
+              }
+            ]
+          }
+        },
+        "example": {
+          "problem": "化简：$-(-7)$ 和 $-(+4)$",
+          "steps": [
+            {
+              "do": "$-(-7)=7$",
+              "why": "$-(-7)$ 表示 $-7$ 的相反数，$-7$ 的相反数是 $7$。"
+            },
+            {
+              "do": "$-(+4)=-4$",
+              "why": "$-(+4)$ 表示 $+4$ 的相反数，$4$ 的相反数是 $-4$。"
+            }
+          ],
+          "answer": "$7$；$-4$"
+        },
+        "practice": [
+          {
+            "level": "基础",
+            "problem": "$-8$ 的相反数是多少？",
+            "answer_type": "数值",
+            "options": [],
+            "accepted_answers": [
+              "8"
+            ],
+            "hint1": "相反数只改变符号。",
+            "hint2": "$-8$ 去掉负号变成什么？",
+            "solution_steps": [
+              "只改变符号：$-8$ 的相反数是 $8$。"
+            ]
+          },
+          {
+            "level": "变式",
+            "problem": "化简：$-[-(-3)]$",
+            "answer_type": "数值",
+            "options": [],
+            "accepted_answers": [
+              "-3"
+            ],
+            "hint1": "从里往外一层一层化简。",
+            "hint2": "先算 $-(-3)=3$，再算外面的负号。",
+            "solution_steps": [
+              "$-(-3)=3$",
+              "$-[-(-3)]=-(3)=-3$"
+            ]
+          },
+          {
+            "level": "提高",
+            "problem": "已知 $-a=-(-4)$，求 $a$ 的值。",
+            "answer_type": "数值",
+            "options": [],
+            "accepted_answers": [
+              "-4"
+            ],
+            "hint1": "先把等号右边化简。",
+            "hint2": "$-(-4)=4$，所以 $-a=4$。",
+            "solution_steps": [
+              "$-(-4)=4$",
+              "$-a=4$",
+              "$a=-4$"
+            ]
+          },
+          {
+            "level": "挑战",
+            "problem": "数轴上点 $A$ 表示 $-2.5$，点 $B$ 和点 $A$ 关于原点对称，求 $A$、$B$ 两点之间的距离。",
+            "answer_type": "数值",
+            "options": [],
+            "accepted_answers": [
+              "5"
+            ],
+            "hint1": "关于原点对称的两个点表示的数互为相反数。",
+            "hint2": "点 $B$ 表示 $2.5$，两点都离原点 $2.5$。",
+            "solution_steps": [
+              "点 $B$ 表示 $-2.5$ 的相反数 $2.5$",
+              "距离 $=2.5+2.5=5$"
+            ]
+          }
+        ],
+        "treasure": {
+          "name": "相反数魔镜",
+          "kind": "宝石",
+          "material": "水晶",
+          "stats": [
+            "空间力",
+            "观察力"
+          ],
+          "story": "照一照，任何数都能看见它在原点另一边的影子。"
+        }
+      },
+      {
+        "kp_id": "7A-2-02",
+        "card": {
+          "one_liner": "减去一个数，等于加上这个数的相反数：$a-b=a+(-b)$。",
+          "explanation": "有理数减法可以全部变成加法来算：第一步把减号变成加号，第二步把减数变成它的相反数，然后按加法法则计算。比如气温从 $-3$℃ 变到 $5$℃，升高了 $5-(-3)=5+3=8$℃。",
+          "mnemonic": "减号变加号，减数变相反数",
+          "pitfall": "只把减号变成了加号，忘了把减数也变号。例如把 $-3-(-5)$ 写成 $-3+(-5)$，这是错的。",
+          "link_to_problem": "原题第一步 $-3-(-5)$ 就要用到它：减去 $-5$ 要变成加上 $5$。",
+          "visual": {
+            "kind": "expr_steps",
+            "title": "$-3-(-5)$ 是怎么变成加法的",
+            "caption": "减去 $-5$，就是加上 $5$。",
+            "steps": [
+              {
+                "latex": "-3\\textcolor{red}{-(-5)}",
+                "note": "找到\"减去一个负数\"的部分"
+              },
+              {
+                "latex": "-3\\textcolor{red}{+5}",
+                "note": "减号变加号，$-5$ 变成它的相反数 $5$"
+              },
+              {
+                "latex": "\\textcolor{red}{2}",
+                "note": "异号相加：$5-3=2$"
+              }
+            ]
+          }
+        },
+        "example": {
+          "problem": "计算：$7-(-2)$",
+          "steps": [
+            {
+              "do": "$7-(-2)=7+2$",
+              "why": "减去 $-2$，等于加上 $-2$ 的相反数 $2$。"
+            },
+            {
+              "do": "$=9$",
+              "why": "两个正数相加。"
+            }
+          ],
+          "answer": "$9$"
+        },
+        "practice": [
+          {
+            "level": "基础",
+            "problem": "计算：$5-(-3)$",
+            "answer_type": "数值",
+            "options": [],
+            "accepted_answers": [
+              "8"
+            ],
+            "hint1": "先把减法变成加法。",
+            "hint2": "$5-(-3)=5+3$",
+            "solution_steps": [
+              "$5-(-3)=5+3$",
+              "$=8$"
+            ]
+          },
+          {
+            "level": "变式",
+            "problem": "计算：$-6-(-8)+|-3|$",
+            "answer_type": "数值",
+            "options": [],
+            "accepted_answers": [
+              "5"
+            ],
+            "hint1": "先处理减法和绝对值，再从左往右加。",
+            "hint2": "$-6-(-8)=-6+8$，$|-3|=3$",
+            "solution_steps": [
+              "$-6-(-8)+|-3|=-6+8+3$",
+              "$=2+3$",
+              "$=5$"
+            ]
+          },
+          {
+            "level": "提高",
+            "problem": "计算：$-2.5-(-4.5)-|-1.5|$",
+            "answer_type": "数值",
+            "options": [],
+            "accepted_answers": [
+              "0.5",
+              "1/2"
+            ],
+            "hint1": "减去负数变加法；绝对值先算出来。",
+            "hint2": "$-2.5+4.5-1.5$",
+            "solution_steps": [
+              "$-2.5-(-4.5)-|-1.5|=-2.5+4.5-1.5$",
+              "$=2-1.5$",
+              "$=0.5$"
+            ]
+          },
+          {
+            "level": "挑战",
+            "problem": "某地一天最高气温是 $3$℃，最低气温是 $-7$℃。第二天最高气温比前一天高 $2$℃，最低气温比前一天低 $1$℃。第二天的温差是多少℃？",
+            "answer_type": "数值",
+            "options": [],
+            "accepted_answers": [
+              "13"
+            ],
+            "hint1": "先分别求出第二天的最高气温和最低气温。",
+            "hint2": "第二天最高 $5$℃，最低 $-8$℃，温差 $=5-(-8)$。",
+            "solution_steps": [
+              "第二天最高气温：$3+2=5$℃",
+              "第二天最低气温：$-7-1=-8$℃",
+              "温差：$5-(-8)=5+8=13$℃"
+            ]
+          }
+        ],
+        "treasure": {
+          "name": "变号之剑",
+          "kind": "剑",
+          "material": "黄金",
+          "stats": [
+            "计算力",
+            "专注力"
+          ],
+          "story": "一剑劈下，减去负数立刻变成加上正数。"
+        }
+      }
+    ]
+  },
+  "steps": {
+    "steps": [
+      {
+        "goal": "先看清这道题有哪几部分，决定从哪里下手",
+        "hint": "题里有减法、有负数、还有绝对值，先把能单独算的部分找出来。",
+        "result": "$-3-(-5)+|-2|$，先处理减去 $-5$ 和 $|-2|$",
+        "explain": "这道题有三个部分：$-3$、减去 $-5$、加上 $|-2|$。直接从左往右硬算很容易在符号上出错，所以先把两个\"麻烦的地方\"变简单：减去一个负数，要变成加上它的相反数；绝对值 $|-2|$ 先算出来。这样整道题就变成只有加法的算式，好算多了。"
+      },
+      {
+        "goal": "把\"减去 $-5$\"变成加法",
+        "hint": "减去一个数，等于加上这个数的相反数。$-5$ 的相反数是多少？",
+        "result": "$-3-(-5)=-3+5$",
+        "explain": "有理数减法法则：减去一个数，等于加上这个数的相反数。$-5$ 的相反数是 $5$，所以 $-3-(-5)$ 变成 $-3+5$。最常见的错误是写成 $-3-5$——减号没变成加号，负号也被弄丢了。这一步写成：$-3-(-5)=-3+5$。"
+      },
+      {
+        "goal": "算出绝对值 $|-2|$",
+        "hint": "绝对值就是这个数到 0 的距离，距离不会是负的。",
+        "result": "$|-2|=2$",
+        "explain": "绝对值表示一个数在数轴上到原点的距离。$-2$ 在 0 的左边 2 格，距离是 2，所以 $|-2|=2$。负数的绝对值是它的相反数。"
+      },
+      {
+        "goal": "把前面的结果放回原式，算出最后的答案",
+        "hint": "现在算式里只剩加法了，从左往右算，注意 $-3+5$ 的符号。",
+        "result": "$-3+5+2=4$",
+        "explain": "原式变成 $-3+5+2$。先算 $-3+5$：异号相加，用绝对值大的减去绝对值小的，$5-3=2$，符号跟绝对值大的 $5$，是正的，得 $2$。再算 $2+2=4$。所以最后答案是 $4$。"
+      }
+    ],
+    "final_answer": "$4$",
+    "idea": "先把\"减负数\"变成\"加正数\"、把绝对值算出来，整道题就只剩加法了。"
+  },
+  "stepWrong": {
+    "seen": "-3-5",
+    "where": "减号没有变成加号：减去 $-5$ 应该变成加上 $5$，你写成了 $-3-5$。",
+    "comment": "没关系，这正是这只怪兽设的陷阱！先看懂正确的这一步，再自己做下一步。"
+  },
+  "stepRight": "这一步做对了，写得清清楚楚！",
+  "en": {
+    "analysis": {
+      "readable": true,
+      "unreadable_reason": null,
+      "problem_text": "Calculate: $-3-(-5)+|-2|$",
+      "duplicate_of": null,
+      "has_student_work": true,
+      "student_answer": "-6",
+      "is_correct": false,
+      "correct_answer": "4",
+      "answer_type": "数值",
+      "accepted_answers": [
+        "4"
+      ],
+      "solution_steps": [
+        "$-3-(-5)+|-2|$",
+        "$=-3+5+2$ (subtracting $-5$ means adding $5$; $|-2|=2$)",
+        "$=2+2$",
+        "$=4$"
+      ],
+      "error": {
+        "step": 1,
+        "type": "概念不清",
+        "description": "In step 1 you wrote $-3-(-5)$ as $-3-5$: subtracting $-5$ should become adding $5$."
+      },
+      "knowledge_points": [
+        {
+          "kp_id": "7A-2-02",
+          "role": "主",
+          "judgement": "不会",
+          "evidence": "You turned $-3-(-5)$ into $-3-5$, so the subtraction rule is not solid yet."
+        },
+        {
+          "kp_id": "7A-1-04",
+          "role": "辅",
+          "judgement": "不确定",
+          "evidence": "It's not clear you know the opposite of $-5$ is $5$."
+        },
+        {
+          "kp_id": "7A-1-05",
+          "role": "辅",
+          "judgement": "会",
+          "evidence": "You got $|-2|=2$ right."
+        }
+      ],
+      "missing_kps": [
+        {
+          "kp_id": "7A-1-04",
+          "reason": "Subtraction uses \"opposite numbers\" — first make sure $-(-5)=5$.",
+          "minutes": 6
+        },
+        {
+          "kp_id": "7A-2-02",
+          "reason": "This is why the problem went wrong: subtracting a negative turns into adding.",
+          "minutes": 10
+        }
+      ],
+      "plan_summary": "You got the absolute value step right. The trouble is \"subtracting a negative\", so first review opposite numbers for a few minutes, then learn subtraction of rational numbers, and come back to redo this problem.",
+      "estimated_minutes": 20,
+      "monster": {
+        "personality": "冒失",
+        "look": "长角",
+        "color": "葡紫",
+        "intro": "It hides behind minus signs and steals the minus sign from negative numbers."
+      }
+    },
+    "training": {
+      "lessons": [
+        {
+          "kp_id": "7A-1-04",
+          "card": {
+            "one_liner": "Two numbers that differ only in sign are opposites; the opposite of $a$ is $-a$.",
+            "explanation": "On the number line, opposites sit on both sides of zero at the same distance, like $3$ and $-3$. The opposite of $0$ is $0$. Putting a minus sign in front of a number gives its opposite, so $-(-5)$ is the opposite of $-5$, which is $5$.",
+            "mnemonic": "Minus a minus makes a plus: $-(-a)=a$",
+            "pitfall": "Thinking $-a$ is always negative. When $a=-3$, $-a=3$, which is positive.",
+            "link_to_problem": "\"Subtract $-5$\" in your problem needs the opposite of $-5$, which is $5$.",
+            "visual": {
+              "kind": "number_line",
+              "title": "$5$ and $-5$ are on both sides of zero, equally far away",
+              "caption": "Opposites are mirror images across zero and the same distance from it.",
+              "min": -6,
+              "max": 6,
+              "step": 1,
+              "points": [
+                {
+                  "value": -5,
+                  "label": "-5",
+                  "highlight": true
+                },
+                {
+                  "value": 5,
+                  "label": "5",
+                  "highlight": true
+                }
+              ],
+              "jumps": [],
+              "spans": [
+                {
+                  "from": -5,
+                  "to": 0,
+                  "label": "distance 5"
+                },
+                {
+                  "from": 0,
+                  "to": 5,
+                  "label": "distance 5"
+                }
+              ]
+            }
+          },
+          "example": {
+            "problem": "Simplify: $-(-7)$ and $-(+4)$",
+            "steps": [
+              {
+                "do": "$-(-7)=7$",
+                "why": "$-(-7)$ means the opposite of $-7$, which is $7$."
+              },
+              {
+                "do": "$-(+4)=-4$",
+                "why": "$-(+4)$ means the opposite of $+4$, which is $-4$."
+              }
+            ],
+            "answer": "$7$; $-4$"
+          },
+          "practice": [
+            {
+              "level": "基础",
+              "problem": "What is the opposite of $-8$?",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "8"
+              ],
+              "hint1": "An opposite only changes the sign.",
+              "hint2": "What do you get if you drop the minus from $-8$?",
+              "solution_steps": [
+                "Only the sign changes: the opposite of $-8$ is $8$."
+              ]
+            },
+            {
+              "level": "变式",
+              "problem": "Simplify: $-[-(-3)]$",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "-3"
+              ],
+              "hint1": "Work from the inside out, one layer at a time.",
+              "hint2": "First $-(-3)=3$, then deal with the outer minus.",
+              "solution_steps": [
+                "$-(-3)=3$",
+                "$-[-(-3)]=-(3)=-3$"
+              ]
+            },
+            {
+              "level": "提高",
+              "problem": "If $-a=-(-4)$, find $a$.",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "-4"
+              ],
+              "hint1": "Simplify the right-hand side first.",
+              "hint2": "$-(-4)=4$, so $-a=4$.",
+              "solution_steps": [
+                "$-(-4)=4$",
+                "$-a=4$",
+                "$a=-4$"
+              ]
+            },
+            {
+              "level": "挑战",
+              "problem": "On the number line, point $A$ is at $-2.5$ and point $B$ is the mirror image of $A$ across zero. Find the distance between $A$ and $B$.",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "5"
+              ],
+              "hint1": "Points that are mirror images across zero are opposites.",
+              "hint2": "$B$ is at $2.5$; both points are $2.5$ from zero.",
+              "solution_steps": [
+                "$B$ is at $2.5$, the opposite of $-2.5$",
+                "distance $=2.5+2.5=5$"
+              ]
+            }
+          ],
+          "treasure": {
+            "name": "Mirror of Opposites",
+            "kind": "宝石",
+            "material": "水晶",
+            "stats": [
+              "空间力",
+              "观察力"
+            ],
+            "story": "Look into it and any number shows its shadow on the other side of zero."
+          }
+        },
+        {
+          "kp_id": "7A-2-02",
+          "card": {
+            "one_liner": "Subtracting a number is the same as adding its opposite: $a-b=a+(-b)$.",
+            "explanation": "Every subtraction of rational numbers can become an addition: change the minus sign to plus, change the number being subtracted to its opposite, then add. For example, if the temperature goes from $-3$°C to $5$°C, it rises by $5-(-3)=5+3=8$°C.",
+            "mnemonic": "Minus becomes plus, and the number flips its sign",
+            "pitfall": "Changing the minus to a plus but forgetting to flip the number. Writing $-3-(-5)$ as $-3+(-5)$ is wrong.",
+            "link_to_problem": "Step 1 of your problem, $-3-(-5)$, needs this: subtracting $-5$ becomes adding $5$.",
+            "visual": {
+              "kind": "expr_steps",
+              "title": "How $-3-(-5)$ turns into an addition",
+              "caption": "Subtracting $-5$ is adding $5$.",
+              "steps": [
+                {
+                  "latex": "-3\\textcolor{red}{-(-5)}",
+                  "note": "Find the \"subtract a negative\" part"
+                },
+                {
+                  "latex": "-3\\textcolor{red}{+5}",
+                  "note": "Minus becomes plus, and $-5$ becomes its opposite $5$"
+                },
+                {
+                  "latex": "\\textcolor{red}{2}",
+                  "note": "Different signs: $5-3=2$"
+                }
+              ]
+            }
+          },
+          "example": {
+            "problem": "Calculate: $7-(-2)$",
+            "steps": [
+              {
+                "do": "$7-(-2)=7+2$",
+                "why": "Subtracting $-2$ means adding its opposite, $2$."
+              },
+              {
+                "do": "$=9$",
+                "why": "Add two positive numbers."
+              }
+            ],
+            "answer": "$9$"
+          },
+          "practice": [
+            {
+              "level": "基础",
+              "problem": "Calculate: $5-(-3)$",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "8"
+              ],
+              "hint1": "Turn the subtraction into an addition first.",
+              "hint2": "$5-(-3)=5+3$",
+              "solution_steps": [
+                "$5-(-3)=5+3$",
+                "$=8$"
+              ]
+            },
+            {
+              "level": "变式",
+              "problem": "Calculate: $-6-(-8)+|-3|$",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "5"
+              ],
+              "hint1": "Handle the subtraction and the absolute value first, then add left to right.",
+              "hint2": "$-6-(-8)=-6+8$, $|-3|=3$",
+              "solution_steps": [
+                "$-6-(-8)+|-3|=-6+8+3$",
+                "$=2+3$",
+                "$=5$"
+              ]
+            },
+            {
+              "level": "提高",
+              "problem": "Calculate: $-2.5-(-4.5)-|-1.5|$",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "0.5",
+                "1/2"
+              ],
+              "hint1": "Subtracting a negative becomes adding; work out the absolute value first.",
+              "hint2": "$-2.5+4.5-1.5$",
+              "solution_steps": [
+                "$-2.5-(-4.5)-|-1.5|=-2.5+4.5-1.5$",
+                "$=2-1.5$",
+                "$=0.5$"
+              ]
+            },
+            {
+              "level": "挑战",
+              "problem": "One day the highest temperature was $3$°C and the lowest was $-7$°C. The next day the highest was $2$°C higher and the lowest was $1$°C lower. What was the temperature range on the next day, in °C?",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "13"
+              ],
+              "hint1": "First find the next day's highest and lowest temperatures.",
+              "hint2": "Next day: highest $5$°C, lowest $-8$°C, range $=5-(-8)$.",
+              "solution_steps": [
+                "Next day highest: $3+2=5$°C",
+                "Next day lowest: $-7-1=-8$°C",
+                "Range: $5-(-8)=5+8=13$°C"
+              ]
+            }
+          ],
+          "treasure": {
+            "name": "Sign-Flip Sword",
+            "kind": "剑",
+            "material": "黄金",
+            "stats": [
+              "计算力",
+              "专注力"
+            ],
+            "story": "One slash, and subtracting a negative instantly becomes adding a positive."
+          }
+        }
+      ]
+    },
+    "gradeComment": "This time subtracting $-5$ became adding $5$ — no steps skipped. Much steadier than before!",
+    "steps": {
+      "steps": [
+        {
+          "goal": "Look at the parts of the problem and decide where to start",
+          "hint": "There is a subtraction, a negative number and an absolute value. Which parts can you work out on their own?",
+          "result": "$-3-(-5)+|-2|$: deal with subtracting $-5$ and $|-2|$ first",
+          "explain": "The problem has three parts: $-3$, subtract $-5$, and add $|-2|$. Working left to right straight away makes sign mistakes easy, so first make the two tricky parts simple: subtracting a negative number becomes adding its opposite, and $|-2|$ can be worked out first. Then the whole thing is just additions."
+        },
+        {
+          "goal": "Turn \"subtract $-5$\" into an addition",
+          "hint": "Subtracting a number is the same as adding its opposite. What is the opposite of $-5$?",
+          "result": "$-3-(-5)=-3+5$",
+          "explain": "Rule for subtraction: subtracting a number equals adding its opposite. The opposite of $-5$ is $5$, so $-3-(-5)$ becomes $-3+5$. The most common mistake is writing $-3-5$: the minus sign did not turn into a plus. This step: $-3-(-5)=-3+5$."
+        },
+        {
+          "goal": "Work out the absolute value $|-2|$",
+          "hint": "Absolute value is the distance from 0. A distance is never negative.",
+          "result": "$|-2|=2$",
+          "explain": "Absolute value is the distance from 0 on the number line. $-2$ is 2 steps left of 0, so its distance is 2: $|-2|=2$. The absolute value of a negative number is its opposite."
+        },
+        {
+          "goal": "Put the results back together and find the final answer",
+          "hint": "Only additions are left. Go from left to right and watch the sign of $-3+5$.",
+          "result": "$-3+5+2=4$",
+          "explain": "The problem is now $-3+5+2$. First $-3+5$: the signs are different, so take the bigger size minus the smaller, $5-3=2$, and keep the sign of $5$ (positive): $2$. Then $2+2=4$. The final answer is $4$."
+        }
+      ],
+      "final_answer": "$4$",
+      "idea": "Turn \"minus a negative\" into \"plus a positive\" and work out the absolute value. Then it is only additions."
+    },
+    "stepWrong": {
+      "seen": "-3-5",
+      "where": "The minus sign did not change: subtracting $-5$ should become adding $5$, but you wrote $-3-5$.",
+      "comment": "No worries, that is exactly this monster's trap! Read the correct step, then try the next one yourself."
+    },
+    "stepRight": "Correct, and written nice and clearly!"
+  },
+  "es": {
+    "analysis": {
+      "readable": true,
+      "unreadable_reason": null,
+      "problem_text": "Calcula: $-3-(-5)+|-2|$",
+      "duplicate_of": null,
+      "has_student_work": true,
+      "student_answer": "-6",
+      "is_correct": false,
+      "correct_answer": "4",
+      "answer_type": "数值",
+      "accepted_answers": [
+        "4"
+      ],
+      "solution_steps": [
+        "$-3-(-5)+|-2|$",
+        "$=-3+5+2$ (restar $-5$ es sumar $5$; $|-2|=2$)",
+        "$=2+2$",
+        "$=4$"
+      ],
+      "error": {
+        "step": 1,
+        "type": "概念不清",
+        "description": "En el paso 1 escribiste $-3-(-5)$ como $-3-5$: restar $-5$ debería convertirse en sumar $5$."
+      },
+      "knowledge_points": [
+        {
+          "kp_id": "7A-2-02",
+          "role": "主",
+          "judgement": "不会",
+          "evidence": "Convertiste $-3-(-5)$ en $-3-5$, así que la regla de la resta aún no está firme."
+        },
+        {
+          "kp_id": "7A-1-04",
+          "role": "辅",
+          "judgement": "不确定",
+          "evidence": "No está claro que sepas que el opuesto de $-5$ es $5$."
+        },
+        {
+          "kp_id": "7A-1-05",
+          "role": "辅",
+          "judgement": "会",
+          "evidence": "Hiciste bien $|-2|=2$."
+        }
+      ],
+      "missing_kps": [
+        {
+          "kp_id": "7A-1-04",
+          "reason": "La resta usa los «números opuestos»: primero asegúrate de que $-(-5)=5$.",
+          "minutes": 6
+        },
+        {
+          "kp_id": "7A-2-02",
+          "reason": "Por esto salió mal el problema: restar un negativo se convierte en sumar.",
+          "minutes": 10
+        }
+      ],
+      "plan_summary": "El valor absoluto lo hiciste bien. El problema está en «restar un negativo», así que primero repasa unos minutos los números opuestos, luego aprende la resta de números racionales y vuelve a hacer este problema.",
+      "estimated_minutes": 20,
+      "monster": {
+        "personality": "冒失",
+        "look": "长角",
+        "color": "葡紫",
+        "intro": "Se esconde detrás de los signos menos y les roba el signo a los números negativos."
+      }
+    },
+    "training": {
+      "lessons": [
+        {
+          "kp_id": "7A-1-04",
+          "card": {
+            "one_liner": "Dos números que solo se diferencian en el signo son opuestos; el opuesto de $a$ es $-a$.",
+            "explanation": "En la recta numérica, los opuestos están a los dos lados del cero y a la misma distancia, como $3$ y $-3$. El opuesto de $0$ es $0$. Poner un signo menos delante de un número da su opuesto, así que $-(-5)$ es el opuesto de $-5$, es decir, $5$.",
+            "mnemonic": "Menos por menos da más: $-(-a)=a$",
+            "pitfall": "Pensar que $-a$ siempre es negativo. Si $a=-3$, entonces $-a=3$, que es positivo.",
+            "link_to_problem": "«Restar $-5$» en tu problema necesita el opuesto de $-5$, que es $5$.",
+            "visual": {
+              "kind": "number_line",
+              "title": "$5$ y $-5$ están a los dos lados del cero, igual de lejos",
+              "caption": "Los opuestos son reflejos respecto al cero y están a la misma distancia de él.",
+              "min": -6,
+              "max": 6,
+              "step": 1,
+              "points": [
+                {
+                  "value": -5,
+                  "label": "-5",
+                  "highlight": true
+                },
+                {
+                  "value": 5,
+                  "label": "5",
+                  "highlight": true
+                }
+              ],
+              "jumps": [],
+              "spans": [
+                {
+                  "from": -5,
+                  "to": 0,
+                  "label": "distancia 5"
+                },
+                {
+                  "from": 0,
+                  "to": 5,
+                  "label": "distancia 5"
+                }
+              ]
+            }
+          },
+          "example": {
+            "problem": "Simplifica: $-(-7)$ y $-(+4)$",
+            "steps": [
+              {
+                "do": "$-(-7)=7$",
+                "why": "$-(-7)$ significa el opuesto de $-7$, que es $7$."
+              },
+              {
+                "do": "$-(+4)=-4$",
+                "why": "$-(+4)$ significa el opuesto de $+4$, que es $-4$."
+              }
+            ],
+            "answer": "$7$; $-4$"
+          },
+          "practice": [
+            {
+              "level": "基础",
+              "problem": "¿Cuál es el opuesto de $-8$?",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "8"
+              ],
+              "hint1": "El opuesto solo cambia el signo.",
+              "hint2": "¿Qué obtienes si le quitas el menos a $-8$?",
+              "solution_steps": [
+                "Solo cambia el signo: el opuesto de $-8$ es $8$."
+              ]
+            },
+            {
+              "level": "变式",
+              "problem": "Simplifica: $-[-(-3)]$",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "-3"
+              ],
+              "hint1": "Trabaja de dentro hacia fuera, capa a capa.",
+              "hint2": "Primero $-(-3)=3$, y luego ocúpate del menos de fuera.",
+              "solution_steps": [
+                "$-(-3)=3$",
+                "$-[-(-3)]=-(3)=-3$"
+              ]
+            },
+            {
+              "level": "提高",
+              "problem": "Si $-a=-(-4)$, halla $a$.",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "-4"
+              ],
+              "hint1": "Simplifica primero el lado derecho.",
+              "hint2": "$-(-4)=4$, así que $-a=4$.",
+              "solution_steps": [
+                "$-(-4)=4$",
+                "$-a=4$",
+                "$a=-4$"
+              ]
+            },
+            {
+              "level": "挑战",
+              "problem": "En la recta numérica, el punto $A$ está en $-2.5$ y el punto $B$ es el reflejo de $A$ respecto al cero. Halla la distancia entre $A$ y $B$.",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "5"
+              ],
+              "hint1": "Los puntos que son reflejo uno del otro respecto al cero son opuestos.",
+              "hint2": "$B$ está en $2.5$; los dos puntos están a $2.5$ del cero.",
+              "solution_steps": [
+                "$B$ está en $2.5$, el opuesto de $-2.5$",
+                "distancia $=2.5+2.5=5$"
+              ]
+            }
+          ],
+          "treasure": {
+            "name": "Espejo de los Opuestos",
+            "kind": "宝石",
+            "material": "水晶",
+            "stats": [
+              "空间力",
+              "观察力"
+            ],
+            "story": "Si miras dentro, cada número enseña su sombra al otro lado del cero."
+          }
+        },
+        {
+          "kp_id": "7A-2-02",
+          "card": {
+            "one_liner": "Restar un número es lo mismo que sumar su opuesto: $a-b=a+(-b)$.",
+            "explanation": "Cualquier resta de números racionales se puede convertir en una suma: cambia el signo menos por más, cambia el número que se resta por su opuesto y luego suma. Por ejemplo, si la temperatura pasa de $-3$ °C a $5$ °C, sube $5-(-3)=5+3=8$ °C.",
+            "mnemonic": "El menos se vuelve más y el número cambia de signo",
+            "pitfall": "Cambiar el menos por más pero olvidarse de cambiar el signo del número. Escribir $-3-(-5)$ como $-3+(-5)$ está mal.",
+            "link_to_problem": "El paso 1 de tu problema, $-3-(-5)$, lo necesita: restar $-5$ se convierte en sumar $5$.",
+            "visual": {
+              "kind": "expr_steps",
+              "title": "Cómo $-3-(-5)$ se convierte en una suma",
+              "caption": "Restar $-5$ es sumar $5$.",
+              "steps": [
+                {
+                  "latex": "-3\\textcolor{red}{-(-5)}",
+                  "note": "Busca la parte de «restar un negativo»"
+                },
+                {
+                  "latex": "-3\\textcolor{red}{+5}",
+                  "note": "El menos se vuelve más, y $-5$ se convierte en su opuesto, $5$"
+                },
+                {
+                  "latex": "\\textcolor{red}{2}",
+                  "note": "Signos distintos: $5-3=2$"
+                }
+              ]
+            }
+          },
+          "example": {
+            "problem": "Calcula: $7-(-2)$",
+            "steps": [
+              {
+                "do": "$7-(-2)=7+2$",
+                "why": "Restar $-2$ es sumar su opuesto, $2$."
+              },
+              {
+                "do": "$=9$",
+                "why": "Suma dos números positivos."
+              }
+            ],
+            "answer": "$9$"
+          },
+          "practice": [
+            {
+              "level": "基础",
+              "problem": "Calcula: $5-(-3)$",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "8"
+              ],
+              "hint1": "Convierte primero la resta en una suma.",
+              "hint2": "$5-(-3)=5+3$",
+              "solution_steps": [
+                "$5-(-3)=5+3$",
+                "$=8$"
+              ]
+            },
+            {
+              "level": "变式",
+              "problem": "Calcula: $-6-(-8)+|-3|$",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "5"
+              ],
+              "hint1": "Primero resuelve la resta y el valor absoluto, y luego suma de izquierda a derecha.",
+              "hint2": "$-6-(-8)=-6+8$, $|-3|=3$",
+              "solution_steps": [
+                "$-6-(-8)+|-3|=-6+8+3$",
+                "$=2+3$",
+                "$=5$"
+              ]
+            },
+            {
+              "level": "提高",
+              "problem": "Calcula: $-2.5-(-4.5)-|-1.5|$",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "0.5",
+                "1/2"
+              ],
+              "hint1": "Restar un negativo se convierte en sumar; calcula primero el valor absoluto.",
+              "hint2": "$-2.5+4.5-1.5$",
+              "solution_steps": [
+                "$-2.5-(-4.5)-|-1.5|=-2.5+4.5-1.5$",
+                "$=2-1.5$",
+                "$=0.5$"
+              ]
+            },
+            {
+              "level": "挑战",
+              "problem": "Un día la temperatura máxima fue de $3$ °C y la mínima de $-7$ °C. Al día siguiente la máxima fue $2$ °C más alta y la mínima $1$ °C más baja. ¿Cuál fue la amplitud térmica del día siguiente, en °C?",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "13"
+              ],
+              "hint1": "Primero halla la máxima y la mínima del día siguiente.",
+              "hint2": "Día siguiente: máxima $5$ °C, mínima $-8$ °C, amplitud $=5-(-8)$.",
+              "solution_steps": [
+                "Máxima del día siguiente: $3+2=5$ °C",
+                "Mínima del día siguiente: $-7-1=-8$ °C",
+                "Amplitud: $5-(-8)=5+8=13$ °C"
+              ]
+            }
+          ],
+          "treasure": {
+            "name": "Espada Cambiasignos",
+            "kind": "剑",
+            "material": "黄金",
+            "stats": [
+              "计算力",
+              "专注力"
+            ],
+            "story": "Un tajo, y restar un negativo se convierte al instante en sumar un positivo."
+          }
+        }
+      ]
+    },
+    "gradeComment": "Esta vez restar $-5$ se convirtió en sumar $5$, sin saltarte ningún paso. ¡Mucho más seguro que antes!",
+    "steps": {
+      "steps": [
+        {
+          "goal": "Mira las partes del problema y decide por dónde empezar",
+          "hint": "Hay una resta, un número negativo y un valor absoluto. ¿Qué partes puedes resolver por separado?",
+          "result": "$-3-(-5)+|-2|$: primero resolver la resta de $-5$ y $|-2|$",
+          "explain": "El problema tiene tres partes: $-3$, restar $-5$ y sumar $|-2|$. Si vas de izquierda a derecha sin más, es fácil equivocarse con los signos, así que primero simplifica las dos partes difíciles: restar un número negativo se convierte en sumar su opuesto, y $|-2|$ se puede calcular antes. Luego todo son sumas."
+        },
+        {
+          "goal": "Convierte «restar $-5$» en una suma",
+          "hint": "Restar un número es lo mismo que sumar su opuesto. ¿Cuál es el opuesto de $-5$?",
+          "result": "$-3-(-5)=-3+5$",
+          "explain": "Regla de la resta: restar un número es igual que sumar su opuesto. El opuesto de $-5$ es $5$, así que $-3-(-5)$ se convierte en $-3+5$. El error más común es escribir $-3-5$: el signo menos no se convirtió en más. Este paso: $-3-(-5)=-3+5$."
+        },
+        {
+          "goal": "Calcula el valor absoluto $|-2|$",
+          "hint": "El valor absoluto es la distancia al 0. Una distancia nunca es negativa.",
+          "result": "$|-2|=2$",
+          "explain": "El valor absoluto es la distancia al 0 en la recta numérica. $-2$ está 2 pasos a la izquierda del 0, así que su distancia es 2: $|-2|=2$. El valor absoluto de un número negativo es su opuesto."
+        },
+        {
+          "goal": "Junta los resultados y halla la respuesta final",
+          "hint": "Solo quedan sumas. Ve de izquierda a derecha y cuidado con el signo de $-3+5$.",
+          "result": "$-3+5+2=4$",
+          "explain": "El problema ahora es $-3+5+2$. Primero $-3+5$: los signos son distintos, así que restamos el valor absoluto menor del mayor, $5-3=2$, y nos quedamos con el signo de $5$ (positivo): $2$. Luego $2+2=4$. La respuesta final es $4$."
+        }
+      ],
+      "final_answer": "$4$",
+      "idea": "Convierte «menos un negativo» en «más un positivo» y calcula el valor absoluto. Después solo quedan sumas."
+    },
+    "stepWrong": {
+      "seen": "-3-5",
+      "where": "El signo menos no cambió: restar $-5$ debería convertirse en sumar $5$, pero escribiste $-3-5$.",
+      "comment": "No pasa nada, ¡esa es justo la trampa de este monstruo! Lee el paso correcto y luego intenta tú el siguiente."
+    },
+    "stepRight": "¡Correcto, y escrito muy claro!"
+  },
+  "zh": {
+    "analysis": {
+      "readable": true,
+      "unreadable_reason": null,
+      "problem_text": "計算：$-3-(-5)+|-2|$",
+      "duplicate_of": null,
+      "has_student_work": true,
+      "student_answer": "-6",
+      "is_correct": false,
+      "correct_answer": "4",
+      "answer_type": "数值",
+      "accepted_answers": [
+        "4"
+      ],
+      "solution_steps": [
+        "$-3-(-5)+|-2|$",
+        "$=-3+5+2$（減去 $-5$ 等於加上 $5$；$|-2|=2$）",
+        "$=2+2$",
+        "$=4$"
+      ],
+      "error": {
+        "step": 1,
+        "type": "概念不清",
+        "description": "第一步把 $-3-(-5)$ 寫成了 $-3-5$：減去 $-5$ 時，沒有變成加上 $5$。"
+      },
+      "knowledge_points": [
+        {
+          "kp_id": "7A-2-02",
+          "role": "主",
+          "judgement": "不会",
+          "evidence": "把 $-3-(-5)$ 算成了 $-3-5$，減法法則沒有掌握。"
+        },
+        {
+          "kp_id": "7A-1-04",
+          "role": "辅",
+          "judgement": "不确定",
+          "evidence": "沒有體現出 $-5$ 的相反數是 $5$。"
+        },
+        {
+          "kp_id": "7A-1-05",
+          "role": "辅",
+          "judgement": "会",
+          "evidence": "$|-2|$ 算成了 $2$，這一步是對的。"
+        }
+      ],
+      "missing_kps": [
+        {
+          "kp_id": "7A-1-04",
+          "reason": "減法要用到\"相反數\"，先確認 $-(-5)=5$ 這一點。",
+          "minutes": 6
+        },
+        {
+          "kp_id": "7A-2-02",
+          "reason": "原題出錯的直接原因：減去一個負數時要變成加法。",
+          "minutes": 10
+        }
+      ],
+      "plan_summary": "絕對值那一步你算對了。問題出在\"減去一個負數\"，先花幾分鐘複習相反數，再學有理數減法，最後回來重做這道題。",
+      "estimated_minutes": 20,
+      "monster": {
+        "personality": "冒失",
+        "look": "长角",
+        "color": "葡紫",
+        "intro": "它總在減號後面埋伏，專門偷走負數的負號。"
+      }
+    },
+    "training": {
+      "lessons": [
+        {
+          "kp_id": "7A-1-04",
+          "card": {
+            "one_liner": "只有符號不同的兩個數互為相反數，$a$ 的相反數是 $-a$。",
+            "explanation": "在數軸上，互為相反數的兩個點分別在原點兩側，到原點的距離相等，比如 $3$ 和 $-3$。$0$ 的相反數是 $0$。在一個數前面加上負號，就得到它的相反數，所以 $-(-5)$ 表示 $-5$ 的相反數，等於 $5$。",
+            "mnemonic": "負負得正：$-(-a)=a$",
+            "pitfall": "以為 $-a$ 一定是負數。當 $a=-3$ 時，$-a=3$，是正數。",
+            "link_to_problem": "原題裡\"減去 $-5$\"要用到 $-5$ 的相反數，也就是 $5$。",
+            "visual": {
+              "kind": "number_line",
+              "title": "$5$ 和 $-5$ 在原點兩側，離原點一樣遠",
+              "caption": "互為相反數的兩個點關於原點對稱，到原點的距離相等。",
+              "min": -6,
+              "max": 6,
+              "step": 1,
+              "points": [
+                {
+                  "value": -5,
+                  "label": "-5",
+                  "highlight": true
+                },
+                {
+                  "value": 5,
+                  "label": "5",
+                  "highlight": true
+                }
+              ],
+              "jumps": [],
+              "spans": [
+                {
+                  "from": -5,
+                  "to": 0,
+                  "label": "距離 5"
+                },
+                {
+                  "from": 0,
+                  "to": 5,
+                  "label": "距離 5"
+                }
+              ]
+            }
+          },
+          "example": {
+            "problem": "化簡：$-(-7)$ 和 $-(+4)$",
+            "steps": [
+              {
+                "do": "$-(-7)=7$",
+                "why": "$-(-7)$ 表示 $-7$ 的相反數，$-7$ 的相反數是 $7$。"
+              },
+              {
+                "do": "$-(+4)=-4$",
+                "why": "$-(+4)$ 表示 $+4$ 的相反數，$4$ 的相反數是 $-4$。"
+              }
+            ],
+            "answer": "$7$；$-4$"
+          },
+          "practice": [
+            {
+              "level": "基础",
+              "problem": "$-8$ 的相反數是多少？",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "8"
+              ],
+              "hint1": "相反數只改變符號。",
+              "hint2": "$-8$ 去掉負號變成什麼？",
+              "solution_steps": [
+                "只改變符號：$-8$ 的相反數是 $8$。"
+              ]
+            },
+            {
+              "level": "变式",
+              "problem": "化簡：$-[-(-3)]$",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "-3"
+              ],
+              "hint1": "從裡往外一層一層化簡。",
+              "hint2": "先算 $-(-3)=3$，再算外面的負號。",
+              "solution_steps": [
+                "$-(-3)=3$",
+                "$-[-(-3)]=-(3)=-3$"
+              ]
+            },
+            {
+              "level": "提高",
+              "problem": "已知 $-a=-(-4)$，求 $a$ 的值。",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "-4"
+              ],
+              "hint1": "先把等號右邊化簡。",
+              "hint2": "$-(-4)=4$，所以 $-a=4$。",
+              "solution_steps": [
+                "$-(-4)=4$",
+                "$-a=4$",
+                "$a=-4$"
+              ]
+            },
+            {
+              "level": "挑战",
+              "problem": "數軸上點 $A$ 表示 $-2.5$，點 $B$ 和點 $A$ 關於原點對稱，求 $A$、$B$ 兩點之間的距離。",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "5"
+              ],
+              "hint1": "關於原點對稱的兩個點表示的數互為相反數。",
+              "hint2": "點 $B$ 表示 $2.5$，兩點都離原點 $2.5$。",
+              "solution_steps": [
+                "點 $B$ 表示 $-2.5$ 的相反數 $2.5$",
+                "距離 $=2.5+2.5=5$"
+              ]
+            }
+          ],
+          "treasure": {
+            "name": "相反數魔鏡",
+            "kind": "宝石",
+            "material": "水晶",
+            "stats": [
+              "空间力",
+              "观察力"
+            ],
+            "story": "照一照，任何數都能看見它在原點另一邊的影子。"
+          }
+        },
+        {
+          "kp_id": "7A-2-02",
+          "card": {
+            "one_liner": "減去一個數，等於加上這個數的相反數：$a-b=a+(-b)$。",
+            "explanation": "有理數減法可以全部變成加法來算：第一步把減號變成加號，第二步把減數變成它的相反數，然後按加法法則計算。比如氣溫從 $-3$℃ 變到 $5$℃，升高了 $5-(-3)=5+3=8$℃。",
+            "mnemonic": "減號變加號，減數變相反數",
+            "pitfall": "只把減號變成了加號，忘了把減數也變號。例如把 $-3-(-5)$ 寫成 $-3+(-5)$，這是錯的。",
+            "link_to_problem": "原題第一步 $-3-(-5)$ 就要用到它：減去 $-5$ 要變成加上 $5$。",
+            "visual": {
+              "kind": "expr_steps",
+              "title": "$-3-(-5)$ 是怎麼變成加法的",
+              "caption": "減去 $-5$，就是加上 $5$。",
+              "steps": [
+                {
+                  "latex": "-3\\textcolor{red}{-(-5)}",
+                  "note": "找到\"減去一個負數\"的部分"
+                },
+                {
+                  "latex": "-3\\textcolor{red}{+5}",
+                  "note": "減號變加號，$-5$ 變成它的相反數 $5$"
+                },
+                {
+                  "latex": "\\textcolor{red}{2}",
+                  "note": "異號相加：$5-3=2$"
+                }
+              ]
+            }
+          },
+          "example": {
+            "problem": "計算：$7-(-2)$",
+            "steps": [
+              {
+                "do": "$7-(-2)=7+2$",
+                "why": "減去 $-2$，等於加上 $-2$ 的相反數 $2$。"
+              },
+              {
+                "do": "$=9$",
+                "why": "兩個正數相加。"
+              }
+            ],
+            "answer": "$9$"
+          },
+          "practice": [
+            {
+              "level": "基础",
+              "problem": "計算：$5-(-3)$",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "8"
+              ],
+              "hint1": "先把減法變成加法。",
+              "hint2": "$5-(-3)=5+3$",
+              "solution_steps": [
+                "$5-(-3)=5+3$",
+                "$=8$"
+              ]
+            },
+            {
+              "level": "变式",
+              "problem": "計算：$-6-(-8)+|-3|$",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "5"
+              ],
+              "hint1": "先處理減法和絕對值，再從左往右加。",
+              "hint2": "$-6-(-8)=-6+8$，$|-3|=3$",
+              "solution_steps": [
+                "$-6-(-8)+|-3|=-6+8+3$",
+                "$=2+3$",
+                "$=5$"
+              ]
+            },
+            {
+              "level": "提高",
+              "problem": "計算：$-2.5-(-4.5)-|-1.5|$",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "0.5",
+                "1/2"
+              ],
+              "hint1": "減去負數變加法；絕對值先算出來。",
+              "hint2": "$-2.5+4.5-1.5$",
+              "solution_steps": [
+                "$-2.5-(-4.5)-|-1.5|=-2.5+4.5-1.5$",
+                "$=2-1.5$",
+                "$=0.5$"
+              ]
+            },
+            {
+              "level": "挑战",
+              "problem": "某地一天最高氣溫是 $3$℃，最低氣溫是 $-7$℃。第二天最高氣溫比前一天高 $2$℃，最低氣溫比前一天低 $1$℃。第二天的溫差是多少℃？",
+              "answer_type": "数值",
+              "options": [],
+              "accepted_answers": [
+                "13"
+              ],
+              "hint1": "先分別求出第二天的最高氣溫和最低氣溫。",
+              "hint2": "第二天最高 $5$℃，最低 $-8$℃，溫差 $=5-(-8)$。",
+              "solution_steps": [
+                "第二天最高氣溫：$3+2=5$℃",
+                "第二天最低氣溫：$-7-1=-8$℃",
+                "溫差：$5-(-8)=5+8=13$℃"
+              ]
+            }
+          ],
+          "treasure": {
+            "name": "變號之劍",
+            "kind": "剑",
+            "material": "黄金",
+            "stats": [
+              "计算力",
+              "专注力"
+            ],
+            "story": "一劍劈下，減去負數立刻變成加上正數。"
+          }
+        }
+      ]
+    },
+    "gradeComment": "這次減去 $-5$ 變成了加上 $5$，一步都沒漏，比上次穩多了！",
+    "steps": {
+      "steps": [
+        {
+          "goal": "先看清這道題有哪幾部分，決定從哪裡下手",
+          "hint": "題裡有減法、有負數、還有絕對值，先把能單獨算的部分找出來。",
+          "result": "$-3-(-5)+|-2|$，先處理減去 $-5$ 和 $|-2|$",
+          "explain": "這道題有三個部分：$-3$、減去 $-5$、加上 $|-2|$。直接從左往右硬算很容易在符號上出錯，所以先把兩個\"麻煩的地方\"變簡單：減去一個負數，要變成加上它的相反數；絕對值 $|-2|$ 先算出來。這樣整道題就變成只有加法的算式，好算多了。"
+        },
+        {
+          "goal": "把\"減去 $-5$\"變成加法",
+          "hint": "減去一個數，等於加上這個數的相反數。$-5$ 的相反數是多少？",
+          "result": "$-3-(-5)=-3+5$",
+          "explain": "有理數減法法則：減去一個數，等於加上這個數的相反數。$-5$ 的相反數是 $5$，所以 $-3-(-5)$ 變成 $-3+5$。最常見的錯誤是寫成 $-3-5$——減號沒變成加號，負號也被弄丟了。這一步寫成：$-3-(-5)=-3+5$。"
+        },
+        {
+          "goal": "算出絕對值 $|-2|$",
+          "hint": "絕對值就是這個數到 0 的距離，距離不會是負的。",
+          "result": "$|-2|=2$",
+          "explain": "絕對值表示一個數在數軸上到原點的距離。$-2$ 在 0 的左邊 2 格，距離是 2，所以 $|-2|=2$。負數的絕對值是它的相反數。"
+        },
+        {
+          "goal": "把前面的結果放回原式，算出最後的答案",
+          "hint": "現在算式裡只剩加法了，從左往右算，注意 $-3+5$ 的符號。",
+          "result": "$-3+5+2=4$",
+          "explain": "原式變成 $-3+5+2$。先算 $-3+5$：異號相加，用絕對值大的減去絕對值小的，$5-3=2$，符號跟絕對值大的 $5$，是正的，得 $2$。再算 $2+2=4$。所以最後答案是 $4$。"
+        }
+      ],
+      "final_answer": "$4$",
+      "idea": "先把\"減負數\"變成\"加正數\"、把絕對值算出來，整道題就只剩加法了。"
+    },
+    "stepWrong": {
+      "seen": "-3-5",
+      "where": "減號沒有變成加號：減去 $-5$ 應該變成加上 $5$，你寫成了 $-3-5$。",
+      "comment": "沒關係，這正是這隻怪獸設的陷阱！先看懂正確的這一步，再自己做下一步。"
+    },
+    "stepRight": "這一步做對了，寫得清清楚楚！"
+  }
+}
